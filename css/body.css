@@ -1,0 +1,22 @@
+#main {
+    width: 1200px;
+}
+
+#status {
+    float: left;
+    width: 300px;
+}
+
+#equipment {
+    float: left;
+    width: 300px;
+}
+
+#inventory {
+    float: left;
+    width: 300px;
+}
+
+#builder {
+    float: left;
+}
