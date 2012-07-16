@@ -3,7 +3,6 @@ var status_id_json = null;
 var builder_item_type = null;
 var builder_item_name = null;
 var inventory = {};
-var multibyte_to_singlebyte = {};
 
 var equipment_type_list = ["Amulet", "Boots", "Belt", "Cloak", "Hat", "Ring"];
 
@@ -13,8 +12,6 @@ $(document).ready(function(){
     builderItemTypeChangeEvent();
     builderItemNameChangeEvent();
     builderItemCreateEvent();
-
-    builderForgeEvent();
 
     itemClickEvent();
     itemDblClickEvent();
@@ -31,16 +28,8 @@ function loadJson(){
     });
 
     $.getJSON("json/status.json", function(data){
-	status_id_json = data;	
-	setMultibyteToSinglebyte();
+	status_id_json = data;
     });
-}
-
-function setMultibyteToSinglebyte(){
-    for(var status in status_id_json){
-	multibyte_name = status_id_json[status]["name"];
-	multibyte_to_singlebyte[multibyte_name] = status;
-    }
 }
 
 function getInventoryNameList(){
@@ -104,8 +93,6 @@ function builderItemNameChangeEvent(){
 		$("#select" + s).append(option);
 	    }	
 	}
-
-	setForgeType();
     });
 }
 
@@ -129,7 +116,9 @@ function builderItemCreateEvent(){
 	    
 	    $("#inventory_list").append("<div class=\"item\">" 
 					+ createItemName + "</div>");
-	   
+	    
+	    //
+	    console.log(getNotIncludedStatusType(getBuilderStatusTypeList()));
 	}
     });
 }
@@ -268,43 +257,6 @@ function getNotIncludedStatusType(typeList){
 	}
     }
     return allTypeList;
-}
-
-function setForgeType(){
-    $("#forge_type").empty();
-    typeList = getNotIncludedStatusType(getBuilderStatusTypeList());
-    for(var type in typeList){
-	$("#forge_type").append("<option>" 
-				+ status_id_json[typeList[type]]["name"] 
-				+ "</option>");
-    }
-}
-
-function builderForgeEvent(){
-    $("#forge").click(function(){
-	type = multibyte_to_singlebyte[$("#forge_type").val()];
-	max = status_id_json[type]["max"];
-	console.log(max);
-	builderStatusAppend(type, 0, 0, max);
-	setForgeType();
-    });
-}
-
-function builderStatusAppend(type, value, min, max){
-    $("#builder_status").append("<div id=\"" + type + "\"></div>");
-
-    $("#" + type).append(status_id_json[type]["name"] + ": " 
-			 + "<select id=\"select" + type + "\"></select>")
-    option = "";
-
-    for(var i=min ; i<eval(max) + 1 ; i++){
-	if(i == value){
-	    option = "<option selected>" + i + "</option>" + option;
-	}else{
-	    option = "<option>" + i + "</option>" + option;
-	}
-    }
-    $("#select" + type).append(option);
 }
 
 /*

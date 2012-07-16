@@ -1,0 +1,13 @@
+.equipment {
+    float: left;
+    width: 200px;
+}
+
+.inventory {
+    float: left;
+    width: 200px;
+}
+
+.builder {
+    float: left;
+}
