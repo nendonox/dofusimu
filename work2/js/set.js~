@@ -1,0 +1,14 @@
+function calcSets(){
+    for(var key in equipments){
+        var item = equipments[key];
+
+        var name = set_dict_json[item["Key"]]
+        if(name != undefined){
+            if(sets[name] == undefined){
+                sets[name] = 1;
+            }else{
+                sets[name] += 1;
+            }
+        }
+    }
+}

@@ -1,0 +1,127 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="css/body.css">
+    <script 
+       type="text/javascript"
+       src="js/import.js">
+    </script>
+  </head>
+  <body id="main">
+    
+    <div style="float: left">
+      <div id="total" class="b2">
+        <h2>総合ステータス</h2>
+      </div>
+    </div>
+
+    <div style="float: left">    
+      <div id="character" class="b2">
+        <h2>キャラクター</h2>
+        <div id="character_class" class="b3">
+          <h3>クラス</h3>
+          <select id="character_class_select">
+          </select>
+        </div>
+        <div id="character_level" class="b3">
+          <h3>レベル</h3>
+          <select id="character_level_select">
+          </select>
+        </div>
+        <div id="character_status" class="b3">
+          <h3>ステータス</h3>
+          <div id="character_status_list">
+          </div>
+          <div id="character_remain">
+            <span class="label">残りポイント</span>
+            <span id="character_remain_point">990</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div style="float: left">
+      <div id="equipment" class="b2">
+        <h2>装備</h2>
+      </div>
+    </div>
+    <div style="float: left">
+      <div id="inventory" class="b2">
+        <h2>インベントリ</h2>
+        <div class="b3">
+          <h3>カテゴリー</h3>
+          <select id="inventory_select"></select>
+        </div>
+        <div class="b3">
+	      <h3>アイテム</h3>
+	      <div id="inventory_list">
+	      </div>
+        </div>
+      </div>
+      <div id="infomation" class="b2">
+        <h2>アイテム情報</h2>
+        <div class="b3">
+          <h3>名称</h3>
+          <div id="infomation_name">
+          </div>
+        </div>
+        <div class="b3">
+          <h3>レベル</h3>
+          <div id="infomation_level">
+          </div>
+        </div>
+        <div class="b3">
+          <h3>ステータス</h3>
+          <div id="infomation_status">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="builder" class="b2">
+      <h2>アイテム製造機</h2>
+      <div id="builder_type" class="b3">
+        <h3>カテゴリー</h3>
+	<select id="builder_type_select">
+	</select>
+      </div>
+      <div id="builder_level" class="b3">
+        <h3>レベル</h3>
+        <div>
+	  <select id="builder_level_low">
+	  </select>
+	  <select id="builder_level_high">
+	  </select>
+        </div>
+      </div>
+      <div class="b3">
+        <h3>制約条件</h3>
+	<div id="builder_conditions">
+	</div>
+	<input type="button" id="builder_condition_add" value="制約条件を追加">
+      </div>
+      <div class="b3">
+        <h3>検索</h3>
+	<select id="builder_name_select">
+	  <option>検索結果が列挙されます</option>
+	</select>
+	<input type="button" id="builder_search" value="検索">
+      </div>
+      <div class="b3">	
+	<h3>ステータス</h3>
+	<div id="builder_summary">
+	</div>
+	<div id="builder_status">
+	</div>
+      </div>
+      <div class="b3">
+	<h3>魔術</h3>
+	<select id="builder_forge_type">
+	  <option>魔術するオプションを選択</option>
+	</select>
+	<input type="button" id="builder_forge" value="魔術">
+      </div>
+      <div class="b3">
+	<h3>作成</h3>
+	<input type="button" id="builder_create" value="作成">
+      </div>
+    </div>
+  </body>
+</html>

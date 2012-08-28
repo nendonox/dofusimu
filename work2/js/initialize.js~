@@ -1,0 +1,219 @@
+function initialize(){
+    $.getJSON("json/equipment.json", function(data){
+	    equipment_json = data;
+	    setBuilderTypeSelect();
+    });
+
+    $.getJSON("json/set_dict.json", function(data){
+	    set_dict_json = data;
+    });
+
+    $.getJSON("json/set_status.json", function(data){
+	    set_status_json = data;
+    });
+}
+
+// 初期状態のHTMLを生成する
+function initHTML(){
+}
+
+function getHTMLforBuilder(){ 
+    var gcond = function(){
+        var cate = function(){
+            var options = getTag("option", {}, "すべて");
+            equipment_type_list.forEach(function(data){
+                options += getTag("option", {}, id_display_dict[data]);
+            });
+            var select = getTag("select", {}, options);
+            return getTag("div", {"class": "b4"}, "カテゴリー" + select);
+        }
+
+        var level = function(){
+            var mins = getTag("select", {}, getOptionsCorrespondsToValues(1, 200, 1));
+            var maxs = getTag("select", {}, getOptionsCorrespondsToValues(1, 200, 200));
+        
+            return getTag("div", {"class": "b4"}, "レベルが" + mins + "以上で" + maxs + "以下");
+        }
+
+        var cond = function(index){
+            var options = getTag("option", {}, "ステータス");
+
+            for(var i in status_power_dict){
+                options += getTag("option", {}, id_display_dict[i]);
+            }
+
+            var select = getTag("select", {}, options);
+            var input = getTag("input", {"size": "4", "type": "text"}, "");
+            
+            return getTag("div", {"class": "b4"}, "制約 " + index + select + "が" + input + "以上");
+        }
+        
+        var title = getTag("h3", {}, "検索条件");
+   
+        return getTag("div", {"class": "b3"}, title + cate() + level() + cond(1) + cond(2) + cond(3));
+    }
+
+    var gresult = function(){
+        var search = function(){
+            var input = getTag("input", {"type": "button", "value": "検索"}, "");
+
+            return getTag("div", {"class": "b4"}, "上記の条件で" + input + "する");
+        }
+
+        var result = function(){
+            var option = getTag("option", {}, "なし");
+            var select = getTag("select", {"style": "width:180px;"}, option);
+            
+            return getTag("div", {"class": "b4"}, "検索結果" + select + "を選択");
+        }
+
+        var title = getTag("h3", {}, "検索、検索結果");
+
+        return getTag("div", {"class": "b3"}, title + search() + result());
+    }
+
+    var gabst = function(){
+        var abst = function(){
+            return getTag("div", {"class": "b4"}, "ベース名 Adventurer Amulet / レベル 1");
+        }
+
+        var name = function(){
+            var input = getTag("input", {"size": "25", "type": "text"}, "");
+            return getTag("div", {"class": "b4"}, "名前を" + input + "にする");
+        }
+
+        var title = getTag("h3", {}, "概要");
+ 
+        return getTag("div", {"class": "b3"}, title + abst() + name());
+    }
+
+    var gstat = function(){
+        var scroll = function(){
+            return getTag("div", {"class": "table"}, "");
+        }
+
+        var title = getTag("h3", {}, "ステータス");
+
+        return getTag("div", {"class": "b3", title}, title + scroll());
+    }
+
+    var gforge = function(){
+        var stat = function(){
+            var option = getTag("option", {}, "ステータス");
+            var select = getTag("select", {}, option);
+
+            var button = getTag("input", {"type": "button", "value": "追加"}, "");
+
+            return getTag("div", {"class": "b4"}, "この" + select + "を" + button + "する");
+        }
+
+        var title = getTag("h3", {}, "魔術");
+        return getTag("div", {"class": "b3"}, title + stat());
+    }
+
+    var gcreate = function(){
+        var create = function(){
+            var but1 = getTag("input", {"type": "button", "value": "作成"}, "");
+            var but2 = getTag("input", {"type": "button", "value": "作成して装備"}, "");
+ 
+            return getTag("div", {"class", "b4"}, "このアイテムを" + but1 + but2 + "する");
+        }        
+        
+        var title = getTag("h3", {}, "作成");
+        return getTag("div", {"class": "b3"}, title + 
+    }
+
+    title = getTag("h2", {}, "アイテム製造器");    
+
+    return getTag("div", {"id": "builder"}, title + gcond()
+}
+
+function setBuilderTypeSelect(){
+    var options = getOption("default", "装備タイプを選択してくだしあ");
+    equipment_type_list.forEach(function(type){
+	    options += getOption(type, id_display_dict[type]);
+    });
+    $("#builder_type_select").append(options);
+}
+
+function setBuilderLevelCondition(){
+    $("#builder_level_low").append(getOptionsCorrespondsToValues(0, 200, 0));
+    $("#builder_level_high").append(getOptionsCorrespondsToValues(0, 200, 200));
+}
+
+function setInventorySelect(){    
+    var options = getTag("option", {"value": "default"}, "全種類");
+    equipment_type_list.forEach(function(type){
+        options += getTag("option", {"value": type}, id_display_dict[type]);
+    });
+
+    $("#inventory_select").append(options);
+}
+
+// 装備一覧用タグをセット
+function setEquipmentTags(){
+    var tags = "";
+    
+    equipment_type_list.forEach(function(type){
+        var h3 = getTag("h3", {}, id_display_dict[type]);
+        var div = getTag("div", {"id": "equipment_" + type}, "");
+        tags += getTag("div", {"class": "b3"}, h3 + div);
+    });
+    
+    $("#equipment").append(tags);
+    
+    equipment_type_list.forEach(function(data){
+	    displayEquipment(data);
+    });
+}
+
+// キャラクターのクラス選択フォームをセット
+function setCharacterClassSelect(){
+    var options = getTag("option", {"value": "default"}, "クラスを選択");
+    class_list.forEach(function(data){
+        options += getTag("option", {"value": data}, id_display_dict[data]);
+    });
+
+    $("#character_class_select").append(options);
+}
+
+// キャラクターのレベル選択フォームをセット
+function setCharacterLevelSelect(){
+    var options = getOptionsCorrespondsToValues(1, 200, 199);
+    
+    $("#character_level_select").append(options);
+}
+
+// キャラクターのステータス設定タグをセット
+function setCharacterStatusTags(){
+    var tags = "";
+
+    character_status_list.forEach(function(data){
+        var scrollMinus = getTag("input", {"type": "button", "key": data, "key2": "Scroll", "class": "character_status_shift", "value": "-"}, "");
+        var scrollPlus = getTag("input", {"type": "button", "key": data, "key2": "Scroll", "class": "character_status_shift", "value": "+"}, "");
+        var pointMinus = getTag("input", {"type": "button", "key": data, "key2": "Point", "class": "character_status_shift", "value": "-"}, "");
+        var pointPlus = getTag("input", {"type": "button", "key": data, "key2": "Point", "class": "character_status_shift", "value": "+"}, "");
+        
+        var label = getTag("td", {"class": "label"}, id_display_dict[data]);
+        var scroll = getTag("td", {}, scrollMinus + getTag("span", {"id": "character_status_scroll"}, "0") + scrollPlus);
+        var point = getTag("td", {}, pointMinus + getTag("span", {"id": "character_status_point"}, "0") + pointPlus);
+        var total = getTag("td", {"id": "character_status_total"}, "0");
+        tags += getTag("tr", {"key": data}, label + scroll + point + total);
+    });
+
+    $("#character_status_list").append(getTag("table", {}, tags));
+}
+
+// 総合ステータスのタグを設定
+function setTotalTags(){
+    calcTotal();
+
+    var trs = "";
+    for(var key in total_status){
+	    var tags = getTag("td", {"class": "label"}, id_display_dict[key]);
+	    tags += getTag("td", {"id": "total_" + key}, total_status[key]);
+	    trs += getTag("tr", {}, tags);
+    }
+    var table = getTag("table", {}, trs);
+    $("#total").append(table);
+}

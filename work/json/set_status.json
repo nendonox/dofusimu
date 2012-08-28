@@ -1,0 +1,6984 @@
+{
+  "Aerdala Set": [
+    {
+    }
+    ,
+    {
+      "Vitality": "10"
+      ,
+      "Agility": "10"
+    }
+    ,
+    {
+      "Vitality": "20"
+      ,
+      "Agility": "20"
+    }
+    ,
+    {
+      "Vitality": "30"
+      ,
+      "Agility": "30"
+    }
+    ,
+    {
+      "Vitality": "40"
+      ,
+      "Agility": "40"
+      ,
+      "PercentDamagetotraps": "5"
+      ,
+      "Damagetotraps": "4"
+    }
+    ,
+    {
+      "Vitality": "50"
+      ,
+      "Agility": "50"
+      ,
+      "PercentDamagetotraps": "10"
+      ,
+      "Damagetotraps": "6"
+      ,
+      "Wisdom": "5"
+    }
+    ,
+    {
+      "Vitality": "60"
+      ,
+      "Agility": "60"
+      ,
+      "PercentDamagetotraps": "20"
+      ,
+      "Damagetotraps": "8"
+      ,
+      "Wisdom": "15"
+      ,
+      "Range": "1"
+    }
+    ,
+    {
+      "Vitality": "80"
+      ,
+      "Agility": "80"
+      ,
+      "PercentDamagetotraps": "40"
+      ,
+      "Damagetotraps": "12"
+      ,
+      "Wisdom": "30"
+      ,
+      "Range": "1"
+      ,
+      "MP": "1"
+    }
+  ]
+  ,
+  "Akwadala Set": [
+    {
+    }
+    ,
+    {
+      "Chance": "5"
+      ,
+      "Vitality": "5"
+    }
+    ,
+    {
+      "Chance": "10"
+      ,
+      "Vitality": "10"
+    }
+    ,
+    {
+      "Chance": "15"
+      ,
+      "Vitality": "20"
+    }
+    ,
+    {
+      "Chance": "20"
+      ,
+      "Vitality": "40"
+    }
+    ,
+    {
+      "Chance": "30"
+      ,
+      "Vitality": "60"
+      ,
+      "Prospecting": "10"
+    }
+    ,
+    {
+      "Chance": "40"
+      ,
+      "Vitality": "80"
+      ,
+      "Prospecting": "20"
+      ,
+      "Wisdom": "20"
+      ,
+      "AP": "1"
+    }
+    ,
+    {
+      "Chance": "60"
+      ,
+      "Vitality": "100"
+      ,
+      "Prospecting": "30"
+      ,
+      "Wisdom": "30"
+      ,
+      "AP": "1"
+      ,
+      "MP": "1"
+    }
+  ]
+  ,
+  "Alcoholic Set": [
+    {
+    }
+    ,
+    {
+      "Agility": "20"
+      ,
+      "Intelligence": "20"
+      ,
+      "Chance": "20"
+      ,
+      "Strength": "20"
+      ,
+      "Wisdom": "20"
+      ,
+      "Damage": "3"
+      ,
+      "Heal": "3"
+      ,
+      "Prospecting": "10"
+    }
+    ,
+    {
+      "Agility": "40"
+      ,
+      "Intelligence": "40"
+      ,
+      "Chance": "40"
+      ,
+      "Strength": "40"
+      ,
+      "Wisdom": "40"
+      ,
+      "Damage": "7"
+      ,
+      "Heal": "7"
+      ,
+      "Prospecting": "20"
+    }
+    ,
+    {
+      "Agility": "70"
+      ,
+      "Intelligence": "70"
+      ,
+      "Chance": "70"
+      ,
+      "Strength": "70"
+      ,
+      "Wisdom": "70"
+      ,
+      "Damage": "12"
+      ,
+      "Heal": "12"
+      ,
+      "Prospecting": "30"
+      ,
+      "Summon": "1"
+      ,
+      "PercentResistair": "5"
+      ,
+      "PercentResistwater": "5"
+      ,
+      "PercentResistearth": "5"
+      ,
+      "PercentResistneutral": "5"
+      ,
+      "PercentResistfire": "5"
+    }
+    ,
+    {
+      "Agility": "100"
+      ,
+      "Intelligence": "100"
+      ,
+      "Chance": "100"
+      ,
+      "Strength": "100"
+      ,
+      "Wisdom": "100"
+      ,
+      "Damage": "20"
+      ,
+      "Heal": "20"
+      ,
+      "Prospecting": "40"
+      ,
+      "Summon": "1"
+      ,
+      "PercentResistair": "10"
+      ,
+      "PercentResistwater": "10"
+      ,
+      "PercentResistearth": "10"
+      ,
+      "PercentResistneutral": "10"
+      ,
+      "PercentResistfire": "10"
+      ,
+      "AP": "1"
+    }
+  ]
+  ,
+  "Allister Set": [
+    {
+    }
+    ,
+    {
+      "Agility": "20"
+      ,
+      "Dodge": "5"
+      ,
+      "Range": "1"
+    }
+    ,
+    {
+      "Agility": "40"
+      ,
+      "Dodge": "10"
+      ,
+      "Range": "1"
+      ,
+      "AP": "1"
+    }
+  ]
+  ,
+  "Alowa Set": [
+    {
+    }
+    ,
+    {
+      "Vitality": "10"
+    }
+    ,
+    {
+      "Vitality": "20"
+    }
+    ,
+    {
+      "Vitality": "30"
+      ,
+      "Prospecting": "10"
+    }
+  ]
+  ,
+  "Altruistic Set": [
+    {
+    }
+    ,
+    {
+      "Agility": "20"
+      ,
+      "Intelligence": "20"
+      ,
+      "Chance": "20"
+      ,
+      "Strength": "20"
+      ,
+      "Wisdom": "20"
+      ,
+      "Damage": "3"
+      ,
+      "Heal": "3"
+      ,
+      "Prospecting": "10"
+    }
+    ,
+    {
+      "Agility": "40"
+      ,
+      "Intelligence": "40"
+      ,
+      "Chance": "40"
+      ,
+      "Strength": "40"
+      ,
+      "Wisdom": "40"
+      ,
+      "Damage": "7"
+      ,
+      "Heal": "7"
+      ,
+      "Prospecting": "20"
+    }
+    ,
+    {
+      "Agility": "70"
+      ,
+      "Intelligence": "70"
+      ,
+      "Chance": "70"
+      ,
+      "Strength": "70"
+      ,
+      "Wisdom": "70"
+      ,
+      "Damage": "12"
+      ,
+      "Heal": "12"
+      ,
+      "Prospecting": "30"
+      ,
+      "Summon": "1"
+      ,
+      "PercentResistair": "5"
+      ,
+      "PercentResistwater": "5"
+      ,
+      "PercentResistearth": "5"
+      ,
+      "PercentResistneutral": "5"
+      ,
+      "PercentResistfire": "5"
+    }
+    ,
+    {
+      "Agility": "100"
+      ,
+      "Intelligence": "100"
+      ,
+      "Chance": "100"
+      ,
+      "Strength": "100"
+      ,
+      "Wisdom": "100"
+      ,
+      "Damage": "20"
+      ,
+      "Heal": "20"
+      ,
+      "Prospecting": "40"
+      ,
+      "Summon": "1"
+      ,
+      "PercentResistair": "10"
+      ,
+      "PercentResistwater": "10"
+      ,
+      "PercentResistearth": "10"
+      ,
+      "PercentResistneutral": "10"
+      ,
+      "PercentResistfire": "10"
+      ,
+      "AP": "1"
+    }
+  ]
+  ,
+  "Ambusher Set": [
+    {
+    }
+    ,
+    {
+      "Criticalhit": "5"
+      ,
+      "Vitality": "10"
+    }
+    ,
+    {
+      "Criticalhit": "6"
+      ,
+      "Vitality": "20"
+      ,
+      "Initiative": "20"
+    }
+    ,
+    {
+      "Criticalhit": "7"
+      ,
+      "Vitality": "30"
+      ,
+      "Initiative": "40"
+      ,
+      "Damage": "3"
+    }
+    ,
+    {
+      "Criticalhit": "8"
+      ,
+      "Vitality": "40"
+      ,
+      "Initiative": "60"
+      ,
+      "Damage": "4"
+      ,
+      "Range": "1"
+    }
+    ,
+    {
+      "Criticalhit": "8"
+      ,
+      "Vitality": "50"
+      ,
+      "Initiative": "80"
+      ,
+      "Damage": "5"
+      ,
+      "Range": "1"
+      ,
+      "MP": "1"
+    }
+    ,
+    {
+      "Criticalhit": "10"
+      ,
+      "Vitality": "60"
+      ,
+      "Initiative": "100"
+      ,
+      "Damage": "6"
+      ,
+      "Range": "2"
+      ,
+      "MP": "1"
+      ,
+      "AP": "1"
+    }
+  ]
+  ,
+  "Ancestral Set": [
+    {
+    }
+    ,
+    {
+      "Damage": "5"
+      ,
+      "Damage": "1"
+    }
+    ,
+    {
+      "Damage": "10"
+      ,
+      "Damage": "2"
+      ,
+      "Criticalhit": "1"
+      ,
+      "Initiative": "20"
+    }
+    ,
+    {
+      "Damage": "15"
+      ,
+      "Damage": "3"
+      ,
+      "Criticalhit": "2"
+      ,
+      "Initiative": "40"
+      ,
+      "PercentResistearth": "2"
+      ,
+      "PercentResistneutral": "2"
+    }
+    ,
+    {
+      "Damage": "20"
+      ,
+      "Damage": "4"
+      ,
+      "Criticalhit": "4"
+      ,
+      "Initiative": "60"
+      ,
+      "PercentResistearth": "3"
+      ,
+      "PercentResistneutral": "3"
+    }
+    ,
+    {
+      "Damage": "25"
+      ,
+      "Damage": "5"
+      ,
+      "Criticalhit": "6"
+      ,
+      "Initiative": "100"
+      ,
+      "PercentResistearth": "4"
+      ,
+      "PercentResistneutral": "4"
+      ,
+      "Range": "1"
+    }
+  ]
+  ,
+  "Ancient Chafer Set": [
+    {
+    }
+    ,
+    {
+      "Strength": "10"
+      ,
+      "Vitality": "20"
+    }
+    ,
+    {
+      "Strength": "20"
+      ,
+      "Vitality": "40"
+      ,
+      "Lock": "4"
+    }
+    ,
+    {
+      "Strength": "40"
+      ,
+      "Vitality": "80"
+      ,
+      "Lock": "8"
+      ,
+      "MP": "1"
+    }
+  ]
+  ,
+  "Arachnee Set": [
+    {
+    }
+    ,
+    {
+      "Agility": "10"
+      ,
+      "Vitality": "5"
+    }
+    ,
+    {
+      "Agility": "20"
+      ,
+      "Vitality": "10"
+      ,
+      "Damage": "1"
+    }
+    ,
+    {
+      "Agility": "30"
+      ,
+      "Vitality": "20"
+      ,
+      "Damage": "2"
+    }
+  ]
+  ,
+  "Bandit Set": [
+    {
+    }
+    ,
+    {
+      "Vitality": "30"
+      ,
+      "Damage": "3"
+    }
+    ,
+    {
+      "Vitality": "40"
+      ,
+      "Damage": "5"
+      ,
+      "Initiative": "50"
+    }
+    ,
+    {
+      "Vitality": "50"
+      ,
+      "Damage": "7"
+      ,
+      "Initiative": "100"
+    }
+  ]
+  ,
+  "Beanie Set": [
+    {
+    }
+    ,
+    {
+      "Agility": "10"
+      ,
+      "PercentResistair": "5"
+    }
+    ,
+    {
+      "Vitality": "40"
+      ,
+      "Agility": "40"
+      ,
+      "PercentResistair": "10"
+    }
+    ,
+    {
+      "Vitality": "80"
+      ,
+      "Agility": "60"
+      ,
+      "PercentResistair": "20"
+    }
+  ]
+  ,
+  "Bearbaric Set": [
+    {
+    }
+    ,
+    {
+      "Neutral": "10"
+      ,
+      "Earth": "10"
+      ,
+      "Air": "10"
+      ,
+      "Water": "10"
+      ,
+      "Fire": "10"
+    }
+    ,
+    {
+      "Neutral": "20"
+      ,
+      "Earth": "20"
+      ,
+      "Air": "20"
+      ,
+      "Water": "20"
+      ,
+      "Fire": "20"
+    }
+  ]
+  ,
+  "Bearman Set": [
+    {
+    }
+    ,
+    {
+      "Vitality": "5"
+      ,
+      "Agility": "5"
+    }
+    ,
+    {
+      "Vitality": "10"
+      ,
+      "Agility": "10"
+      ,
+      "Initiative": "10"
+    }
+    ,
+    {
+      "Vitality": "15"
+      ,
+      "Agility": "15"
+      ,
+      "Initiative": "15"
+      ,
+      "PercentDamage": "5"
+    }
+    ,
+    {
+      "Vitality": "20"
+      ,
+      "Agility": "20"
+      ,
+      "Initiative": "20"
+      ,
+      "PercentDamage": "10"
+    }
+    ,
+    {
+      "Vitality": "25"
+      ,
+      "Agility": "25"
+      ,
+      "Initiative": "25"
+      ,
+      "PercentDamage": "15"
+      ,
+      "Summon": "1"
+    }
+    ,
+    {
+      "Vitality": "30"
+      ,
+      "Agility": "30"
+      ,
+      "Initiative": "30"
+      ,
+      "PercentDamage": "20"
+      ,
+      "Summon": "2"
+      ,
+      "AP": "1"
+    }
+  ]
+  ,
+  "Berserker Bworker Set": [
+    {
+    }
+    ,
+    {
+      "Intelligence": "15"
+      ,
+      "Chance": "15"
+    }
+    ,
+    {
+      "Intelligence": "30"
+      ,
+      "Chance": "30"
+      ,
+      "Criticalhit": "2"
+    }
+    ,
+    {
+      "Intelligence": "50"
+      ,
+      "Chance": "50"
+      ,
+      "Criticalhit": "4"
+      ,
+      "MP": "1"
+    }
+  ]
+  ,
+  "Black Crow Set": [
+    {
+    }
+    ,
+    {
+      "Vitality": "10"
+    }
+    ,
+    {
+      "Vitality": "20"
+      ,
+      "Damage": "1"
+    }
+    ,
+    {
+      "Vitality": "30"
+      ,
+      "Damage": "2"
+      ,
+      "Criticalhit": "2"
+    }
+    ,
+    {
+      "Vitality": "40"
+      ,
+      "Damage": "3"
+      ,
+      "Criticalhit": "4"
+      ,
+      "Range": "1"
+    }
+  ]
+  ,
+  "Black Rat Set": [
+    {
+    }
+    ,
+    {
+      "Agility": "5"
+      ,
+      "Vitality": "10"
+      ,
+      "Damagetotraps": "1"
+    }
+    ,
+    {
+      "Agility": "10"
+      ,
+      "Vitality": "20"
+      ,
+      "Damagetotraps": "2"
+      ,
+      "PercentDamagetotraps": "5"
+    }
+    ,
+    {
+      "Agility": "20"
+      ,
+      "Vitality": "30"
+      ,
+      "Damagetotraps": "4"
+      ,
+      "PercentDamagetotraps": "10"
+    }
+    ,
+    {
+      "Agility": "25"
+      ,
+      "Vitality": "35"
+      ,
+      "Damagetotraps": "6"
+      ,
+      "PercentDamagetotraps": "15"
+      ,
+      "Criticalhit": "1"
+    }
+    ,
+    {
+      "Agility": "30"
+      ,
+      "Vitality": "40"
+      ,
+      "Damagetotraps": "8"
+      ,
+      "PercentDamagetotraps": "20"
+      ,
+      "Criticalhit": "3"
+    }
+    ,
+    {
+      "Agility": "40"
+      ,
+      "Vitality": "50"
+      ,
+      "Damagetotraps": "10"
+      ,
+      "PercentDamagetotraps": "30"
+      ,
+      "Criticalhit": "5"
+      ,
+      "Range": "1"
+    }
+  ]
+  ,
+  "Black Scaraleaf Set": [
+    {
+    }
+    ,
+    {
+      "Damage": "15"
+      ,
+      "PercentResistneutral": "5"
+      ,
+      "Vitality": "25"
+    }
+    ,
+    {
+      "Damage": "30"
+      ,
+      "PercentResistneutral": "10"
+      ,
+      "Vitality": "50"
+    }
+    ,
+    {
+      "Damage": "60"
+      ,
+      "PercentResistneutral": "20"
+      ,
+      "Vitality": "100"
+    }
+  ]
+  ,
+  "Black Wab Set": [
+    {
+    }
+    ,
+    {
+      "Vitality": "10"
+    }
+    ,
+    {
+      "Vitality": "20"
+      ,
+      "PercentDamage": "10"
+    }
+    ,
+    {
+      "Vitality": "30"
+      ,
+      "PercentDamage": "30"
+      ,
+      "Summon": "1"
+    }
+  ]
+  ,
+  "Bloodless Set": [
+    {
+    }
+    ,
+    {
+      "Agility": "20"
+      ,
+      "Intelligence": "20"
+      ,
+      "Chance": "20"
+      ,
+      "Strength": "20"
+      ,
+      "Wisdom": "20"
+      ,
+      "Damage": "3"
+      ,
+      "Heal": "3"
+      ,
+      "Prospecting": "10"
+    }
+    ,
+    {
+      "Agility": "40"
+      ,
+      "Intelligence": "40"
+      ,
+      "Chance": "40"
+      ,
+      "Strength": "40"
+      ,
+      "Wisdom": "40"
+      ,
+      "Damage": "7"
+      ,
+      "Heal": "7"
+      ,
+      "Prospecting": "20"
+    }
+    ,
+    {
+      "Agility": "70"
+      ,
+      "Intelligence": "70"
+      ,
+      "Chance": "70"
+      ,
+      "Strength": "70"
+      ,
+      "Wisdom": "70"
+      ,
+      "Damage": "12"
+      ,
+      "Heal": "12"
+      ,
+      "Prospecting": "30"
+      ,
+      "Summon": "1"
+      ,
+      "PercentResistair": "5"
+      ,
+      "PercentResistwater": "5"
+      ,
+      "PercentResistearth": "5"
+      ,
+      "PercentResistneutral": "5"
+      ,
+      "PercentResistfire": "5"
+    }
+    ,
+    {
+      "Agility": "100"
+      ,
+      "Intelligence": "100"
+      ,
+      "Chance": "100"
+      ,
+      "Strength": "100"
+      ,
+      "Wisdom": "100"
+      ,
+      "Damage": "20"
+      ,
+      "Heal": "20"
+      ,
+      "Prospecting": "40"
+      ,
+      "Summon": "1"
+      ,
+      "PercentResistair": "10"
+      ,
+      "PercentResistwater": "10"
+      ,
+      "PercentResistearth": "10"
+      ,
+      "PercentResistneutral": "10"
+      ,
+      "PercentResistfire": "10"
+      ,
+      "AP": "1"
+    }
+  ]
+  ,
+  "Blue Piwi Set": [
+    {
+    }
+    ,
+    {
+      "Chance": "1"
+    }
+    ,
+    {
+      "Chance": "2"
+    }
+    ,
+    {
+      "Chance": "4"
+    }
+    ,
+    {
+      "Chance": "8"
+    }
+    ,
+    {
+      "Chance": "16"
+    }
+  ]
+  ,
+  "Blue Scaraleaf Set": [
+    {
+    }
+    ,
+    {
+      "Chance": "10"
+      ,
+      "PercentResistwater": "5"
+    }
+    ,
+    {
+      "Chance": "40"
+      ,
+      "PercentResistwater": "10"
+      ,
+      "Vitality": "40"
+    }
+    ,
+    {
+      "Chance": "60"
+      ,
+      "PercentResistwater": "20"
+      ,
+      "Vitality": "80"
+    }
+  ]
+  ,
+  "Boar Set": [
+    {
+    }
+    ,
+    {
+      "Vitality": "30"
+    }
+    ,
+    {
+      "Vitality": "40"
+      ,
+      "Initiative": "50"
+    }
+  ]
+  ,
+  "Bobble Set": [
+    {
+    }
+    ,
+    {
+      "Vitality": "10"
+    }
+    ,
+    {
+      "Vitality": "20"
+      ,
+      "Summon": "1"
+    }
+    ,
+    {
+      "Vitality": "40"
+      ,
+      "Summon": "2"
+    }
+  ]
+  ,
+  "Boon Set": [
+    {
+    }
+    ,
+    {
+      "Agility": "5"
+      ,
+      "Intelligence": "5"
+      ,
+      "Chance": "5"
+      ,
+      "Strength": "5"
+      ,
+      "Wisdom": "5"
+    }
+    ,
+    {
+      "Agility": "10"
+      ,
+      "Intelligence": "10"
+      ,
+      "Chance": "10"
+      ,
+      "Strength": "10"
+      ,
+      "Wisdom": "10"
+    }
+    ,
+    {
+      "Agility": "15"
+      ,
+      "Intelligence": "15"
+      ,
+      "Chance": "15"
+      ,
+      "Strength": "15"
+      ,
+      "Wisdom": "15"
+    }
+    ,
+    {
+      "Agility": "20"
+      ,
+      "Intelligence": "20"
+      ,
+      "Chance": "20"
+      ,
+      "Strength": "20"
+      ,
+      "Wisdom": "20"
+    }
+    ,
+    {
+      "Agility": "25"
+      ,
+      "Intelligence": "25"
+      ,
+      "Chance": "25"
+      ,
+      "Strength": "25"
+      ,
+      "Wisdom": "25"
+    }
+  ]
+  ,
+  "Boostache Set": [
+    {
+    }
+    ,
+    {
+      "Vitality": "30"
+      ,
+      "Strength": "20"
+      ,
+      "Intelligence": "20"
+      ,
+      "Wisdom": "10"
+    }
+    ,
+    {
+      "Vitality": "60"
+      ,
+      "Strength": "35"
+      ,
+      "Intelligence": "35"
+      ,
+      "Wisdom": "15"
+    }
+    ,
+    {
+      "AP": "1"
+      ,
+      "Vitality": "100"
+      ,
+      "Strength": "50"
+      ,
+      "Intelligence": "50"
+      ,
+      "Wisdom": "25"
+    }
+  ]
+  ,
+  "Boowolf Set": [
+    {
+    }
+    ,
+    {
+      "Strength": "10"
+      ,
+      "Vitality": "10"
+      ,
+      "Heal": "2"
+    }
+    ,
+    {
+      "Strength": "20"
+      ,
+      "Vitality": "20"
+      ,
+      "Heal": "4"
+    }
+    ,
+    {
+      "Strength": "30"
+      ,
+      "Vitality": "30"
+      ,
+      "Heal": "6"
+      ,
+      "Prospecting": "5"
+    }
+    ,
+    {
+      "Strength": "40"
+      ,
+      "Vitality": "40"
+      ,
+      "Heal": "8"
+      ,
+      "Prospecting": "10"
+    }
+    ,
+    {
+      "Strength": "60"
+      ,
+      "Vitality": "60"
+      ,
+      "Heal": "10"
+      ,
+      "Prospecting": "15"
+    }
+    ,
+    {
+      "Strength": "80"
+      ,
+      "Vitality": "80"
+      ,
+      "Heal": "12"
+      ,
+      "Prospecting": "20"
+      ,
+      "Wisdom": "30"
+    }
+  ]
+  ,
+  "Borealis Set": [
+    {
+    }
+    ,
+    {
+      "Strength": "50"
+      ,
+      "Intelligence": "50"
+      ,
+      "Chance": "50"
+      ,
+      "Agility": "50"
+      ,
+      "Earth": "10"
+      ,
+      "Fire": "10"
+      ,
+      "Water": "10"
+      ,
+      "Air": "10"
+      ,
+      "Criticalhit": "3"
+    }
+    ,
+    {
+      "Strength": "100"
+      ,
+      "Intelligence": "100"
+      ,
+      "Chance": "100"
+      ,
+      "Agility": "100"
+      ,
+      "Earth": "20"
+      ,
+      "Fire": "20"
+      ,
+      "Water": "20"
+      ,
+      "Air": "20"
+      ,
+      "Criticalhit": "6"
+    }
+    ,
+    {
+      "Strength": "150"
+      ,
+      "Intelligence": "150"
+      ,
+      "Chance": "150"
+      ,
+      "Agility": "150"
+      ,
+      "Earth": "30"
+      ,
+      "Fire": "30"
+      ,
+      "Water": "30"
+      ,
+      "Air": "30"
+      ,
+      "Criticalhit": "9"
+      ,
+      "Range": "1"
+    }
+  ]
+  ,
+  "Brouce Boulgoure Set": [
+    {
+    }
+    ,
+    {
+      "Strength": "20"
+      ,
+      "Dodge": "5"
+      ,
+      "Criticalhit": "2"
+    }
+    ,
+    {
+      "Strength": "40"
+      ,
+      "Dodge": "10"
+      ,
+      "Criticalhit": "4"
+      ,
+      "AP": "1"
+    }
+  ]
+  ,
+  "Buck Anear Set": [
+    {
+    }
+    ,
+    {
+      "Agility": "10"
+      ,
+      "Intelligence": "10"
+    }
+    ,
+    {
+      "Agility": "20"
+      ,
+      "Intelligence": "20"
+      ,
+      "Criticalresistance": "5"
+    }
+    ,
+    {
+      "Agility": "30"
+      ,
+      "Intelligence": "30"
+      ,
+      "Criticalresistance": "10"
+      ,
+      "Range": "1"
+    }
+  ]
+  ,
+  "Bwork Chief Set": [
+    {
+    }
+    ,
+    {
+      "Initiative": "100"
+    }
+    ,
+    {
+      "Initiative": "120"
+      ,
+      "Vitality": "20"
+    }
+    ,
+    {
+      "Initiative": "140"
+      ,
+      "Vitality": "40"
+      ,
+      "Strength": "20"
+    }
+    ,
+    {
+      "Initiative": "160"
+      ,
+      "Vitality": "60"
+      ,
+      "Strength": "40"
+      ,
+      "Agility": "20"
+    }
+    ,
+    {
+      "Initiative": "180"
+      ,
+      "Vitality": "80"
+      ,
+      "Strength": "60"
+      ,
+      "Agility": "40"
+      ,
+      "Wisdom": "10"
+    }
+    ,
+    {
+      "Initiative": "200"
+      ,
+      "Vitality": "100"
+      ,
+      "Strength": "80"
+      ,
+      "Agility": "60"
+      ,
+      "Wisdom": "20"
+      ,
+      "MP": "1"
+    }
+  ]
+  ,
+  "BzzZet": [
+    {
+    }
+    ,
+    {
+      "Vitality": "10"
+      ,
+      "Damage": "2"
+    }
+    ,
+    {
+      "Vitality": "20"
+      ,
+      "Damage": "4"
+    }
+    ,
+    {
+      "Vitality": "30"
+      ,
+      "Damage": "8"
+      ,
+      "Summon": "1"
+    }
+  ]
+  ,
+  "Cantile Set": [
+    {
+    }
+    ,
+    {
+      "Neutral": "3"
+      ,
+      "Earth": "3"
+      ,
+      "Air": "3"
+      ,
+      "Criticalhit": "3"
+      ,
+      "Lock": "2"
+    }
+    ,
+    {
+      "Neutral": "6"
+      ,
+      "Earth": "6"
+      ,
+      "Air": "6"
+      ,
+      "Criticalhit": "5"
+      ,
+      "Lock": "3"
+    }
+    ,
+    {
+      "Neutral": "10"
+      ,
+      "Earth": "10"
+      ,
+      "Air": "10"
+      ,
+      "Criticalhit": "7"
+      ,
+      "Lock": "5"
+    }
+  ]
+  ,
+  "Celestial Bearbarian Set": [
+    {
+    }
+    ,
+    {
+      "Prospecting": "20"
+    }
+    ,
+    {
+      "Prospecting": "40"
+      ,
+      "Resistneutral": "4"
+      ,
+      "Resistearth": "4"
+      ,
+      "Resistfire": "4"
+      ,
+      "Resistwater": "4"
+      ,
+      "Resistair": "4"
+      ,
+      "Lock": "-20"
+    }
+    ,
+    {
+      "Prospecting": "60"
+      ,
+      "Resistneutral": "8"
+      ,
+      "Resistearth": "8"
+      ,
+      "Resistfire": "8"
+      ,
+      "Resistwater": "8"
+      ,
+      "Resistair": "8"
+      ,
+      "Lock": "-40"
+    }
+    ,
+    {
+      "Prospecting": "80"
+      ,
+      "Resistneutral": "12"
+      ,
+      "Resistearth": "12"
+      ,
+      "Resistfire": "12"
+      ,
+      "Resistwater": "12"
+      ,
+      "Resistair": "12"
+      ,
+      "AP": "1"
+      ,
+      "Lock": "-60"
+    }
+  ]
+  ,
+  "Ceremonial Set": [
+    {
+    }
+    ,
+    {
+      "Vitality": "20"
+    }
+    ,
+    {
+      "Vitality": "40"
+      ,
+      "Agility": "10"
+      ,
+      "Intelligence": "10"
+    }
+    ,
+    {
+      "Vitality": "60"
+      ,
+      "Agility": "20"
+      ,
+      "Intelligence": "20"
+    }
+    ,
+    {
+      "Vitality": "80"
+      ,
+      "Agility": "35"
+      ,
+      "Intelligence": "35"
+      ,
+      "Wisdom": "10"
+    }
+    ,
+    {
+      "Vitality": "100"
+      ,
+      "Agility": "50"
+      ,
+      "Intelligence": "50"
+      ,
+      "Wisdom": "20"
+      ,
+      "MP": "1"
+    }
+  ]
+  ,
+  "Champion Set": [
+    {
+    }
+    ,
+    {
+    }
+    ,
+    {
+    }
+    ,
+    {
+    }
+    ,
+    {
+      "Strength": "100"
+      ,
+      "Intelligence": "100"
+      ,
+      "Chance": "100"
+      ,
+      "Agility": "100"
+      ,
+      "Wisdom": "100"
+    }
+  ]
+  ,
+  "Charlie's Set": [
+    {
+    }
+    ,
+    {
+      "Vitality": "10"
+    }
+    ,
+    {
+      "Vitality": "20"
+      ,
+      "PercentDamage": "20"
+    }
+    ,
+    {
+      "Vitality": "30"
+      ,
+      "PercentDamage": "30"
+      ,
+      "Damage": "4"
+    }
+  ]
+  ,
+  "Cherry Blop Set": [
+    {
+    }
+    ,
+    {
+      "Resistearth": "5"
+      ,
+      "PercentResistfire": "10"
+      ,
+      "PercentResistair": "5"
+      ,
+      "PercentResistneutral": "5"
+      ,
+      "PercentWater": "60"
+      ,
+      "Vitality": "10"
+      ,
+      "Intelligence": "10"
+    }
+    ,
+    {
+      "Resistearth": "10"
+      ,
+      "PercentResistfire": "20"
+      ,
+      "PercentResistair": "10"
+      ,
+      "PercentResistneutral": "10"
+      ,
+      "PercentWater": "55"
+      ,
+      "Vitality": "30"
+      ,
+      "Intelligence": "30"
+    }
+    ,
+    {
+      "Resistearth": "15"
+      ,
+      "PercentResistfire": "30"
+      ,
+      "PercentResistair": "15"
+      ,
+      "PercentResistneutral": "15"
+      ,
+      "PercentWater": "50"
+      ,
+      "Vitality": "50"
+      ,
+      "Intelligence": "50"
+      ,
+      "AP": "1"
+    }
+  ]
+  ,
+  "Chisp Set": [
+    {
+    }
+    ,
+    {
+      "Vitality": "10"
+    }
+    ,
+    {
+      "Vitality": "20"
+      ,
+      "Agility": "10"
+    }
+    ,
+    {
+      "Vitality": "30"
+      ,
+      "Agility": "20"
+      ,
+      "PercentDamage": "15"
+    }
+  ]
+  ,
+  "Cicada Set": [
+    {
+    }
+    ,
+    {
+      "Vitality": "10"
+    }
+    ,
+    {
+      "Vitality": "30"
+      ,
+      "Wisdom": "10"
+    }
+  ]
+  ,
+  "Clementine Set": [
+    {
+    }
+    ,
+    {
+      "Vitality": "10"
+    }
+    ,
+    {
+      "Vitality": "20"
+      ,
+      "Damage": "4"
+    }
+    ,
+    {
+      "Vitality": "40"
+      ,
+      "Damage": "6"
+      ,
+      "Range": "1"
+    }
+  ]
+  ,
+  "Coco Blop Set": [
+    {
+    }
+    ,
+    {
+      "Earth": "60"
+      ,
+      "PercentResistfire": "5"
+      ,
+      "PercentResistwater": "5"
+      ,
+      "PercentResistair": "10"
+      ,
+      "PercentResistneutral": "5"
+      ,
+      "Vitality": "10"
+      ,
+      "Agility": "10"
+    }
+    ,
+    {
+      "Earth": "55"
+      ,
+      "PercentResistfire": "10"
+      ,
+      "PercentResistwater": "10"
+      ,
+      "PercentResistair": "20"
+      ,
+      "PercentResistneutral": "10"
+      ,
+      "Vitality": "30"
+      ,
+      "Agility": "30"
+    }
+    ,
+    {
+      "Earth": "50"
+      ,
+      "PercentResistfire": "15"
+      ,
+      "PercentResistwater": "15"
+      ,
+      "PercentResistair": "30"
+      ,
+      "PercentResistneutral": "15"
+      ,
+      "Vitality": "50"
+      ,
+      "Agility": "50"
+    }
+  ]
+  ,
+  "Country Set": [
+    {
+    }
+    ,
+    {
+      "Vitality": "5"
+      ,
+      "Agility": "5"
+    }
+    ,
+    {
+      "Vitality": "10"
+      ,
+      "Agility": "10"
+      ,
+      "Intelligence": "5"
+    }
+    ,
+    {
+      "Vitality": "15"
+      ,
+      "Agility": "15"
+      ,
+      "Intelligence": "10"
+      ,
+      "PercentResistneutral": "4"
+    }
+    ,
+    {
+      "Vitality": "20"
+      ,
+      "Agility": "20"
+      ,
+      "Intelligence": "15"
+      ,
+      "PercentResistneutral": "8"
+      ,
+      "Initiative": "10"
+    }
+    ,
+    {
+      "Vitality": "25"
+      ,
+      "Agility": "25"
+      ,
+      "Intelligence": "20"
+      ,
+      "PercentResistneutral": "12"
+      ,
+      "Initiative": "20"
+      ,
+      "Range": "1"
+    }
+    ,
+    {
+      "Vitality": "30"
+      ,
+      "Agility": "30"
+      ,
+      "Intelligence": "25"
+      ,
+      "PercentResistneutral": "16"
+      ,
+      "Initiative": "30"
+      ,
+      "Range": "1"
+      ,
+      "AP": "1"
+    }
+  ]
+  ,
+  "Crackler Set": [
+    {
+    }
+    ,
+    {
+      "Strength": "10"
+    }
+    ,
+    {
+      "Strength": "20"
+      ,
+      "Resistearth": "1"
+      ,
+      "Resistneutral": "1"
+      ,
+      "Resistfire": "1"
+      ,
+      "Resistwater": "1"
+      ,
+      "Resistair": "1"
+    }
+    ,
+    {
+      "Strength": "30"
+      ,
+      "Resistearth": "2"
+      ,
+      "Resistneutral": "2"
+      ,
+      "Resistfire": "2"
+      ,
+      "Resistwater": "2"
+      ,
+      "Resistair": "2"
+      ,
+      "PercentResistneutral": "5"
+    }
+    ,
+    {
+      "Strength": "40"
+      ,
+      "Resistearth": "4"
+      ,
+      "Resistneutral": "4"
+      ,
+      "Resistfire": "4"
+      ,
+      "Resistwater": "4"
+      ,
+      "Resistair": "4"
+      ,
+      "PercentResistneutral": "10"
+    }
+    ,
+    {
+      "Strength": "50"
+      ,
+      "Resistearth": "6"
+      ,
+      "Resistneutral": "6"
+      ,
+      "Resistfire": "6"
+      ,
+      "Resistwater": "6"
+      ,
+      "Resistair": "6"
+      ,
+      "PercentResistneutral": "15"
+    }
+  ]
+  ,
+  "Criminal Set": [
+    {
+    }
+    ,
+    {
+      "Agility": "20"
+    }
+    ,
+    {
+      "Agility": "40"
+    }
+    ,
+    {
+      "Agility": "70"
+    }
+    ,
+    {
+      "Agility": "100"
+    }
+  ]
+  ,
+  "Cristalline Set": [
+    {
+    }
+    ,
+    {
+      "Heal": "2"
+      ,
+      "Vitality": "10"
+    }
+    ,
+    {
+      "Heal": "4"
+      ,
+      "Vitality": "20"
+    }
+    ,
+    {
+      "Heal": "8"
+      ,
+      "Vitality": "30"
+      ,
+      "Range": "1"
+    }
+  ]
+  ,
+  "Crocodyl Chief Set": [
+    {
+    }
+    ,
+    {
+      "Agility": "15"
+      ,
+      "Chance": "15"
+    }
+    ,
+    {
+      "Agility": "20"
+      ,
+      "Chance": "20"
+      ,
+      "Vitality": "20"
+    }
+    ,
+    {
+      "Agility": "25"
+      ,
+      "Chance": "25"
+      ,
+      "Vitality": "30"
+      ,
+      "PercentResistair": "10"
+    }
+    ,
+    {
+      "Agility": "30"
+      ,
+      "Chance": "30"
+      ,
+      "Vitality": "40"
+      ,
+      "PercentResistair": "12"
+      ,
+      "PercentResistearth": "12"
+    }
+    ,
+    {
+      "Agility": "35"
+      ,
+      "Chance": "35"
+      ,
+      "Vitality": "50"
+      ,
+      "PercentResistair": "14"
+      ,
+      "PercentResistearth": "14"
+      ,
+      "Wisdom": "10"
+    }
+    ,
+    {
+      "Agility": "40"
+      ,
+      "Chance": "40"
+      ,
+      "Vitality": "60"
+      ,
+      "PercentResistair": "16"
+      ,
+      "PercentResistearth": "16"
+      ,
+      "Wisdom": "20"
+      ,
+      "AP": "1"
+    }
+  ]
+  ,
+  "Crow Set": [
+    {
+    }
+    ,
+    {
+      "Damage": "3"
+    }
+    ,
+    {
+      "Damage": "3"
+      ,
+      "AP": "1"
+    }
+    ,
+    {
+      "Damage": "5"
+      ,
+      "AP": "1"
+      ,
+      "MP": "1"
+    }
+    ,
+    {
+      "Damage": "10"
+      ,
+      "AP": "1"
+      ,
+      "MP": "1"
+      ,
+      "Range": "1"
+      ,
+      "Wisdom": "30"
+    }
+  ]
+  ,
+  "Cursed Vampyre set": [
+    {
+    }
+    ,
+    {
+      "Vitality": "20"
+      ,
+      "Damage": "1"
+    }
+    ,
+    {
+      "Vitality": "30"
+      ,
+      "Damage": "2"
+    }
+    ,
+    {
+      "Vitality": "40"
+      ,
+      "Damage": "3"
+    }
+    ,
+    {
+      "Vitality": "50"
+      ,
+      "Damage": "4"
+      ,
+      "Range": "1"
+    }
+    ,
+    {
+      "Vitality": "60"
+      ,
+      "Damage": "5"
+      ,
+      "Range": "2"
+      ,
+      "MP": "1"
+    }
+  ]
+  ,
+  "Danathor Set": [
+    {
+    }
+    ,
+    {
+      "Chance": "20"
+      ,
+      "Dodge": "4"
+      ,
+      "Prospecting": "15"
+    }
+    ,
+    {
+      "Chance": "40"
+      ,
+      "Dodge": "8"
+      ,
+      "Prospecting": "30"
+      ,
+      "AP": "1"
+    }
+  ]
+  ,
+  "Dark Set": [
+    {
+    }
+    ,
+    {
+      "Heal": "3"
+      ,
+      "Damage": "3"
+    }
+    ,
+    {
+      "Heal": "6"
+      ,
+      "Damage": "6"
+      ,
+      "Vitality": "40"
+    }
+  ]
+  ,
+  "Dragon Pig Set": [
+    {
+    }
+    ,
+    {
+      "Vitality": "20"
+    }
+    ,
+    {
+      "Vitality": "30"
+    }
+    ,
+    {
+      "Vitality": "40"
+    }
+    ,
+    {
+      "Vitality": "50"
+    }
+    ,
+    {
+      "Vitality": "60"
+    }
+    ,
+    {
+      "Vitality": "120"
+    }
+  ]
+  ,
+  "Dreggon Set": [
+    {
+    }
+    ,
+    {
+      "Strength": "5"
+      ,
+      "Agility": "5"
+      ,
+      "Intelligence": "5"
+      ,
+      "Chance": "5"
+      ,
+      "PercentDamage": "5"
+      ,
+      "Damage": "1"
+    }
+    ,
+    {
+      "Strength": "20"
+      ,
+      "Agility": "20"
+      ,
+      "Intelligence": "20"
+      ,
+      "Chance": "20"
+      ,
+      "PercentDamage": "20"
+      ,
+      "Damage": "2"
+    }
+    ,
+    {
+      "Strength": "30"
+      ,
+      "Agility": "30"
+      ,
+      "Intelligence": "30"
+      ,
+      "Chance": "30"
+      ,
+      "PercentDamage": "30"
+      ,
+      "Damage": "3"
+      ,
+      "Wisdom": "10"
+    }
+    ,
+    {
+      "Strength": "40"
+      ,
+      "Agility": "40"
+      ,
+      "Intelligence": "40"
+      ,
+      "Chance": "40"
+      ,
+      "PercentDamage": "40"
+      ,
+      "Damage": "4"
+      ,
+      "Wisdom": "20"
+    }
+    ,
+    {
+      "Strength": "50"
+      ,
+      "Agility": "50"
+      ,
+      "Intelligence": "50"
+      ,
+      "Chance": "50"
+      ,
+      "PercentDamage": "50"
+      ,
+      "Damage": "5"
+      ,
+      "Wisdom": "30"
+      ,
+      "MP": "1"
+    }
+  ]
+  ,
+  "Earth Kwak Set": [
+    {
+    }
+    ,
+    {
+      "Strength": "15"
+      ,
+      "Vitality": "15"
+    }
+    ,
+    {
+      "Strength": "20"
+      ,
+      "Vitality": "20"
+      ,
+      "Chance": "10"
+    }
+    ,
+    {
+      "Strength": "25"
+      ,
+      "Vitality": "25"
+      ,
+      "Chance": "15"
+      ,
+      "Wisdom": "5"
+    }
+    ,
+    {
+      "Strength": "30"
+      ,
+      "Vitality": "30"
+      ,
+      "Chance": "20"
+      ,
+      "Wisdom": "10"
+      ,
+      "Range": "1"
+    }
+    ,
+    {
+      "Strength": "35"
+      ,
+      "Vitality": "35"
+      ,
+      "Chance": "25"
+      ,
+      "Wisdom": "15"
+      ,
+      "Range": "1"
+      ,
+      "MP": "1"
+    }
+    ,
+    {
+      "Strength": "45"
+      ,
+      "Vitality": "45"
+      ,
+      "Chance": "30"
+      ,
+      "Wisdom": "20"
+      ,
+      "Range": "1"
+      ,
+      "MP": "1"
+      ,
+      "AP": "1"
+    }
+    ,
+    {
+      "Strength": "55"
+      ,
+      "Vitality": "55"
+      ,
+      "Chance": "35"
+      ,
+      "Wisdom": "25"
+      ,
+      "Range": "1"
+      ,
+      "MP": "1"
+      ,
+      "AP": "1"
+      ,
+      "PercentResistearth": "10"
+    }
+  ]
+  ,
+  "Ektope Set": [
+    {
+    }
+    ,
+    {
+      "Vitality": "10"
+    }
+    ,
+    {
+      "Vitality": "20"
+      ,
+      "Summon": "1"
+    }
+    ,
+    {
+      "Vitality": "40"
+      ,
+      "Summon": "2"
+      ,
+      "Damage": "5"
+    }
+  ]
+  ,
+  "Elya Wood Set": [
+    {
+    }
+    ,
+    {
+      "Vitality": "60"
+    }
+    ,
+    {
+      "Vitality": "100"
+    }
+    ,
+    {
+      "Vitality": "150"
+    }
+  ]
+  ,
+  "Explosive Set": [
+    {
+    }
+    ,
+    {
+      "Agility": "20"
+      ,
+      "Intelligence": "20"
+      ,
+      "Chance": "20"
+      ,
+      "Strength": "20"
+      ,
+      "Wisdom": "20"
+      ,
+      "Vitality": "100"
+      ,
+      "Damage": "3"
+      ,
+      "Heal": "3"
+      ,
+      "Prospecting": "10"
+    }
+    ,
+    {
+      "Agility": "40"
+      ,
+      "Intelligence": "40"
+      ,
+      "Chance": "40"
+      ,
+      "Strength": "40"
+      ,
+      "Wisdom": "40"
+      ,
+      "Vitality": "200"
+      ,
+      "Damage": "7"
+      ,
+      "Heal": "7"
+      ,
+      "Prospecting": "20"
+    }
+    ,
+    {
+      "Agility": "70"
+      ,
+      "Intelligence": "70"
+      ,
+      "Chance": "70"
+      ,
+      "Strength": "70"
+      ,
+      "Wisdom": "70"
+      ,
+      "Vitality": "500"
+      ,
+      "Damage": "12"
+      ,
+      "Heal": "12"
+      ,
+      "Prospecting": "30"
+      ,
+      "Summon": "1"
+      ,
+      "PercentResistair": "5"
+      ,
+      "PercentResistwater": "5"
+      ,
+      "PercentResistearth": "5"
+      ,
+      "PercentResistneutral": "5"
+      ,
+      "PercentResistfire": "5"
+    }
+    ,
+    {
+      "Agility": "100"
+      ,
+      "Intelligence": "100"
+      ,
+      "Chance": "100"
+      ,
+      "Strength": "100"
+      ,
+      "Wisdom": "100"
+      ,
+      "Vitality": "800"
+      ,
+      "Damage": "20"
+      ,
+      "Heal": "20"
+      ,
+      "Prospecting": "40"
+      ,
+      "Summon": "1"
+      ,
+      "PercentResistair": "10"
+      ,
+      "PercentResistwater": "10"
+      ,
+      "PercentResistearth": "10"
+      ,
+      "PercentResistneutral": "10"
+      ,
+      "PercentResistfire": "10"
+      ,
+      "AP": "1"
+    }
+  ]
+  ,
+  "Farle Ingalsse Set": [
+    {
+    }
+    ,
+    {
+      "Vitality": "10"
+      ,
+      "Strength": "10"
+    }
+    ,
+    {
+      "Vitality": "20"
+      ,
+      "Strength": "20"
+      ,
+      "Agility": "10"
+    }
+    ,
+    {
+      "Vitality": "30"
+      ,
+      "Strength": "30"
+      ,
+      "Agility": "20"
+      ,
+      "PercentResistearth": "5"
+    }
+    ,
+    {
+      "Vitality": "40"
+      ,
+      "Strength": "40"
+      ,
+      "Agility": "30"
+      ,
+      "PercentResistearth": "10"
+    }
+    ,
+    {
+      "Vitality": "50"
+      ,
+      "Strength": "50"
+      ,
+      "Agility": "40"
+      ,
+      "PercentResistearth": "15"
+      ,
+      "Wisdom": "20"
+    }
+    ,
+    {
+      "Vitality": "60"
+      ,
+      "Strength": "60"
+      ,
+      "Agility": "50"
+      ,
+      "PercentResistearth": "20"
+      ,
+      "Wisdom": "30"
+      ,
+      "MP": "1"
+    }
+  ]
+  ,
+  "Farmer Set": [
+    {
+    }
+    ,
+    {
+      "Vitality": "10"
+      ,
+      "Chance": "5"
+    }
+    ,
+    {
+      "Vitality": "20"
+      ,
+      "Chance": "10"
+    }
+    ,
+    {
+      "Vitality": "30"
+      ,
+      "Chance": "15"
+      ,
+      "Damage": "1"
+    }
+    ,
+    {
+      "Vitality": "40"
+      ,
+      "Chance": "20"
+      ,
+      "Damage": "3"
+      ,
+      "Wisdom": "10"
+    }
+    ,
+    {
+      "Vitality": "50"
+      ,
+      "Chance": "25"
+      ,
+      "Damage": "5"
+      ,
+      "Wisdom": "20"
+    }
+    ,
+    {
+      "Vitality": "60"
+      ,
+      "Chance": "30"
+      ,
+      "Damage": "7"
+      ,
+      "Wisdom": "40"
+    }
+  ]
+  ,
+  "Faye Erdamp Set": [
+    {
+    }
+    ,
+    {
+      "Chance": "10"
+    }
+    ,
+    {
+      "Chance": "20"
+      ,
+      "Damage": "2"
+    }
+    ,
+    {
+      "Chance": "30"
+      ,
+      "Damage": "4"
+      ,
+      "Range": "1"
+    }
+  ]
+  ,
+  "Feudala Set": [
+    {
+    }
+    ,
+    {
+      "Vitality": "10"
+      ,
+      "Heal": "2"
+    }
+    ,
+    {
+      "Vitality": "20"
+      ,
+      "Heal": "4"
+    }
+    ,
+    {
+      "Vitality": "30"
+      ,
+      "Heal": "6"
+      ,
+      "Initiative": "100"
+    }
+    ,
+    {
+      "Vitality": "40"
+      ,
+      "Heal": "8"
+      ,
+      "Initiative": "150"
+    }
+    ,
+    {
+      "Vitality": "50"
+      ,
+      "Heal": "10"
+      ,
+      "Initiative": "200"
+      ,
+      "Wisdom": "10"
+      ,
+      "Intelligence": "20"
+    }
+    ,
+    {
+      "Vitality": "60"
+      ,
+      "Heal": "12"
+      ,
+      "Initiative": "250"
+      ,
+      "Wisdom": "20"
+      ,
+      "Intelligence": "40"
+      ,
+      "Range": "1"
+    }
+    ,
+    {
+      "Vitality": "80"
+      ,
+      "Heal": "14"
+      ,
+      "Initiative": "500"
+      ,
+      "Wisdom": "40"
+      ,
+      "Intelligence": "80"
+      ,
+      "Range": "1"
+      ,
+      "MP": "1"
+    }
+  ]
+  ,
+  "Fire Kwak Set": [
+    {
+    }
+    ,
+    {
+      "Intelligence": "15"
+      ,
+      "Vitality": "15"
+    }
+    ,
+    {
+      "Intelligence": "20"
+      ,
+      "Vitality": "20"
+      ,
+      "Agility": "10"
+    }
+    ,
+    {
+      "Intelligence": "25"
+      ,
+      "Vitality": "25"
+      ,
+      "Agility": "15"
+      ,
+      "Wisdom": "5"
+    }
+    ,
+    {
+      "Intelligence": "30"
+      ,
+      "Vitality": "30"
+      ,
+      "Agility": "20"
+      ,
+      "Wisdom": "10"
+      ,
+      "Range": "1"
+    }
+    ,
+    {
+      "Intelligence": "35"
+      ,
+      "Vitality": "35"
+      ,
+      "Agility": "25"
+      ,
+      "Wisdom": "15"
+      ,
+      "Range": "1"
+      ,
+      "MP": "1"
+    }
+    ,
+    {
+      "Intelligence": "45"
+      ,
+      "Vitality": "45"
+      ,
+      "Agility": "30"
+      ,
+      "Wisdom": "20"
+      ,
+      "Range": "1"
+      ,
+      "MP": "1"
+      ,
+      "AP": "1"
+    }
+    ,
+    {
+      "Intelligence": "55"
+      ,
+      "Vitality": "55"
+      ,
+      "Agility": "35"
+      ,
+      "Wisdom": "25"
+      ,
+      "Range": "1"
+      ,
+      "MP": "1"
+      ,
+      "AP": "1"
+      ,
+      "PercentResistfire": "10"
+    }
+  ]
+  ,
+  "Frigostine Set": [
+    {
+    }
+    ,
+    {
+      "Agility": "10"
+      ,
+      "Wisdom": "10"
+      ,
+      "Criticalhit": "2"
+    }
+    ,
+    {
+      "Agility": "20"
+      ,
+      "Wisdom": "20"
+      ,
+      "Criticalhit": "3"
+      ,
+      "Summon": "1"
+    }
+    ,
+    {
+      "Agility": "30"
+      ,
+      "Wisdom": "30"
+      ,
+      "Criticalhit": "4"
+      ,
+      "Summon": "2"
+    }
+    ,
+    {
+      "Agility": "40"
+      ,
+      "Wisdom": "40"
+      ,
+      "Criticalhit": "6"
+      ,
+      "Summon": "2"
+      ,
+      "Range": "1"
+    }
+  ]
+  ,
+  "Frost Set": [
+    {
+    }
+    ,
+    {
+      "Vitality": "10"
+    }
+    ,
+    {
+      "Vitality": "20"
+      ,
+      "Wisdom": "10"
+    }
+    ,
+    {
+      "Vitality": "40"
+      ,
+      "Wisdom": "20"
+      ,
+      "Prospecting": "20"
+    }
+  ]
+  ,
+  "Fuji Snowfoux Set": [
+    {
+    }
+    ,
+    {
+      "Vitality": "100"
+      ,
+      "Initiative": "200"
+      ,
+      "Damage": "10"
+      ,
+      "Criticalhit": "2"
+    }
+    ,
+    {
+      "Vitality": "150"
+      ,
+      "Initiative": "300"
+      ,
+      "Damage": "20"
+      ,
+      "Criticalhit": "3"
+      ,
+      "Range": "1"
+    }
+    ,
+    {
+      "Vitality": "200"
+      ,
+      "Initiative": "400"
+      ,
+      "Damage": "30"
+      ,
+      "Criticalhit": "4"
+      ,
+      "Range": "1"
+      ,
+      "AP": "1"
+    }
+  ]
+  ,
+  "Funguset": [
+    {
+    }
+    ,
+    {
+      "Strength": "10"
+      ,
+      "Damage": "2"
+    }
+    ,
+    {
+      "Strength": "30"
+      ,
+      "Damage": "4"
+      ,
+      "Range": "1"
+    }
+  ]
+  ,
+  "Gato Set": [
+    {
+    }
+    ,
+    {
+      "Strength": "10"
+      ,
+      "PercentResistearth": "5"
+    }
+    ,
+    {
+      "Strength": "40"
+      ,
+      "PercentResistearth": "10"
+      ,
+      "Vitality": "40"
+    }
+    ,
+    {
+      "Strength": "60"
+      ,
+      "PercentResistearth": "20"
+      ,
+      "Vitality": "80"
+    }
+  ]
+  ,
+  "Gladiator Bworker Set": [
+    {
+    }
+    ,
+    {
+      "Agility": "15"
+      ,
+      "Strength": "15"
+    }
+    ,
+    {
+      "Agility": "30"
+      ,
+      "Strength": "30"
+      ,
+      "Criticalhit": "2"
+    }
+    ,
+    {
+      "Agility": "50"
+      ,
+      "Strength": "50"
+      ,
+      "Criticalhit": "4"
+    }
+  ]
+  ,
+  "Gobball Set": [
+    {
+    }
+    ,
+    {
+      "Strength": "5"
+      ,
+      "Intelligence": "5"
+    }
+    ,
+    {
+      "Strength": "10"
+      ,
+      "Intelligence": "10"
+    }
+    ,
+    {
+      "Strength": "10"
+      ,
+      "Intelligence": "10"
+      ,
+      "Damage": "2"
+    }
+    ,
+    {
+      "Strength": "30"
+      ,
+      "Intelligence": "30"
+      ,
+      "Damage": "4"
+    }
+    ,
+    {
+      "Strength": "40"
+      ,
+      "Intelligence": "40"
+      ,
+      "Damage": "4"
+    }
+    ,
+    {
+      "Strength": "50"
+      ,
+      "Intelligence": "50"
+      ,
+      "Damage": "5"
+      ,
+      "Wisdom": "20"
+      ,
+      "Vitality": "30"
+      ,
+      "AP": "1"
+    }
+  ]
+  ,
+  "Gobkool Set": [
+    {
+    }
+    ,
+    {
+      "Chance": "5"
+      ,
+      "Agility": "5"
+    }
+    ,
+    {
+      "Chance": "10"
+      ,
+      "Agility": "10"
+    }
+    ,
+    {
+      "Chance": "20"
+      ,
+      "Agility": "20"
+      ,
+      "Damage": "2"
+    }
+    ,
+    {
+      "Chance": "40"
+      ,
+      "Agility": "40"
+      ,
+      "Damage": "4"
+    }
+    ,
+    {
+      "Chance": "60"
+      ,
+      "Agility": "60"
+      ,
+      "Damage": "5"
+    }
+    ,
+    {
+      "Chance": "70"
+      ,
+      "Agility": "70"
+      ,
+      "Damage": "7"
+      ,
+      "Wisdom": "30"
+      ,
+      "Vitality": "50"
+      ,
+      "AP": "1"
+    }
+  ]
+  ,
+  "Goboff Set": [
+    {
+    }
+    ,
+    {
+      "Vitality": "10"
+    }
+    ,
+    {
+      "Vitality": "20"
+      ,
+      "Agility": "20"
+    }
+    ,
+    {
+      "Vitality": "30"
+      ,
+      "Agility": "30"
+      ,
+      "Criticalhit": "8"
+    }
+  ]
+  ,
+  "Golden Scarabugly Set": [
+    {
+    }
+    ,
+    {
+      "Vitality": "20"
+      ,
+      "Damage": "1"
+      ,
+      "Heal": "1"
+    }
+    ,
+    {
+      "Vitality": "30"
+      ,
+      "Damage": "2"
+      ,
+      "Heal": "2"
+    }
+    ,
+    {
+      "Vitality": "40"
+      ,
+      "Damage": "3"
+      ,
+      "Heal": "3"
+    }
+    ,
+    {
+      "Vitality": "50"
+      ,
+      "Damage": "4"
+      ,
+      "Heal": "4"
+      ,
+      "Wisdom": "20"
+    }
+    ,
+    {
+      "Vitality": "60"
+      ,
+      "Damage": "5"
+      ,
+      "Heal": "5"
+      ,
+      "Wisdom": "40"
+    }
+    ,
+    {
+      "Vitality": "80"
+      ,
+      "Damage": "10"
+      ,
+      "Heal": "10"
+      ,
+      "Wisdom": "60"
+    }
+  ]
+  ,
+  "Goldobrak Set": [
+    {
+    }
+    ,
+    {
+      "Vitality": "10"
+    }
+    ,
+    {
+      "Vitality": "20"
+      ,
+      "Criticalhit": "1"
+    }
+    ,
+    {
+      "Vitality": "30"
+      ,
+      "Criticalhit": "2"
+      ,
+      "Chance": "20"
+    }
+  ]
+  ,
+  "Gorgoyle Set": [
+    {
+    }
+    ,
+    {
+      "Strength": "10"
+      ,
+      "Intelligence": "10"
+      ,
+      "Wisdom": "5"
+      ,
+      "Damage": "5"
+    }
+    ,
+    {
+      "Strength": "20"
+      ,
+      "Intelligence": "20"
+      ,
+      "Wisdom": "10"
+      ,
+      "Damage": "10"
+    }
+    ,
+    {
+      "Strength": "30"
+      ,
+      "Intelligence": "30"
+      ,
+      "Wisdom": "15"
+      ,
+      "Damage": "15"
+      ,
+      "Range": "1"
+    }
+  ]
+  ,
+  "Green Piwi Set": [
+    {
+    }
+    ,
+    {
+      "Agility": "1"
+    }
+    ,
+    {
+      "Agility": "2"
+    }
+    ,
+    {
+      "Agility": "4"
+    }
+    ,
+    {
+      "Agility": "8"
+    }
+    ,
+    {
+      "Agility": "16"
+    }
+  ]
+  ,
+  "Green Scaraleaf Set": [
+    {
+    }
+    ,
+    {
+      "Strength": "10"
+      ,
+      "PercentResistearth": "5"
+    }
+    ,
+    {
+      "Strength": "40"
+      ,
+      "PercentResistearth": "10"
+      ,
+      "Vitality": "40"
+    }
+    ,
+    {
+      "Strength": "60"
+      ,
+      "PercentResistearth": "20"
+      ,
+      "Vitality": "80"
+    }
+  ]
+  ,
+  "Grute Set": [
+    {
+    }
+    ,
+    {
+      "Vitality": "10"
+    }
+    ,
+    {
+      "Vitality": "20"
+      ,
+      "Wisdom": "10"
+    }
+    ,
+    {
+      "Vitality": "30"
+      ,
+      "Wisdom": "20"
+      ,
+      "Range": "1"
+    }
+  ]
+  ,
+  "Grillian Set": [
+    {
+    }
+    ,
+    {
+      "Vitality": "20"
+    }
+    ,
+    {
+      "Vitality": "40"
+      ,
+      "Wisdom": "10"
+    }
+    ,
+    {
+      "Vitality": "60"
+      ,
+      "Wisdom": "20"
+      ,
+      "Heal": "3"
+    }
+  ]
+  ,
+  "Guten Tak Set": [
+    {
+    }
+    ,
+    {
+      "Range": "1"
+      ,
+      "Vitality": "50"
+    }
+    ,
+    {
+      "MP": "1"
+      ,
+      "Vitality": "100"
+    }
+    ,
+    {
+      "AP": "1"
+      ,
+      "Vitality": "150"
+    }
+  ]
+  ,
+  "Gutter Set": [
+    {
+    }
+    ,
+    {
+      "Agility": "20"
+    }
+    ,
+    {
+      "Agility": "40"
+    }
+    ,
+    {
+      "Agility": "70"
+    }
+    ,
+    {
+      "Agility": "100"
+    }
+  ]
+  ,
+  "Hail Set": [
+    {
+    }
+    ,
+    {
+      "Intelligence": "15"
+      ,
+      "Agility": "15"
+    }
+    ,
+    {
+      "Intelligence": "30"
+      ,
+      "Agility": "30"
+      ,
+      "PercentDamage": "10"
+    }
+    ,
+    {
+      "Intelligence": "50"
+      ,
+      "Agility": "50"
+      ,
+      "PercentDamage": "20"
+      ,
+      "AP": "1"
+    }
+  ]
+  ,
+  "Hax Or Set": [
+    {
+    }
+    ,
+    {
+      "Vitality": "10"
+    }
+    ,
+    {
+      "Vitality": "20"
+      ,
+      "PercentDamage": "20"
+    }
+    ,
+    {
+      "Vitality": "30"
+      ,
+      "PercentDamage": "30"
+      ,
+      "Wisdom": "30"
+    }
+    ,
+    {
+      "Vitality": "40"
+      ,
+      "PercentDamage": "40"
+      ,
+      "Wisdom": "40"
+      ,
+      "MP": "1"
+    }
+  ]
+  ,
+  "Hulkrap Set": [
+    {
+    }
+    ,
+    {
+      "Vitality": "10"
+    }
+    ,
+    {
+      "Vitality": "20"
+      ,
+      "Intelligence": "10"
+    }
+    ,
+    {
+      "Vitality": "30"
+      ,
+      "Intelligence": "20"
+      ,
+      "Range": "2"
+    }
+  ]
+  ,
+  "Ice Kwak Set": [
+    {
+    }
+    ,
+    {
+      "Chance": "15"
+      ,
+      "Vitality": "15"
+    }
+    ,
+    {
+      "Chance": "20"
+      ,
+      "Vitality": "20"
+      ,
+      "Intelligence": "10"
+    }
+    ,
+    {
+      "Chance": "25"
+      ,
+      "Vitality": "25"
+      ,
+      "Intelligence": "15"
+      ,
+      "Wisdom": "5"
+    }
+    ,
+    {
+      "Chance": "30"
+      ,
+      "Vitality": "30"
+      ,
+      "Intelligence": "20"
+      ,
+      "Wisdom": "10"
+      ,
+      "Range": "1"
+    }
+    ,
+    {
+      "Chance": "35"
+      ,
+      "Vitality": "35"
+      ,
+      "Intelligence": "25"
+      ,
+      "Wisdom": "15"
+      ,
+      "Range": "1"
+      ,
+      "MP": "1"
+    }
+    ,
+    {
+      "Chance": "45"
+      ,
+      "Vitality": "45"
+      ,
+      "Intelligence": "30"
+      ,
+      "Wisdom": "20"
+      ,
+      "Range": "1"
+      ,
+      "MP": "1"
+      ,
+      "AP": "1"
+    }
+    ,
+    {
+      "Chance": "55"
+      ,
+      "Vitality": "55"
+      ,
+      "Intelligence": "35"
+      ,
+      "Wisdom": "25"
+      ,
+      "Range": "1"
+      ,
+      "MP": "1"
+      ,
+      "AP": "1"
+      ,
+      "PercentResistwater": "10"
+    }
+  ]
+  ,
+  "Indestructible Set": [
+    {
+    }
+    ,
+    {
+      "Agility": "20"
+    }
+    ,
+    {
+      "Agility": "40"
+    }
+    ,
+    {
+      "Agility": "70"
+    }
+    ,
+    {
+      "Agility": "100"
+    }
+  ]
+  ,
+  "Indigo Blop Set": [
+    {
+    }
+    ,
+    {
+      "PercentResistearth": "60"
+    }
+    ,
+    {
+      "Resistearth": "10"
+      ,
+      "PercentResistwater": "20"
+      ,
+      "PercentResistair": "10"
+      ,
+      "PercentResistneutral": "10"
+      ,
+      "PercentFire": "55"
+      ,
+      "Vitality": "30"
+      ,
+      "Chance": "30"
+    }
+    ,
+    {
+      "Resistearth": "15"
+      ,
+      "PercentResistwater": "30"
+      ,
+      "PercentResistair": "15"
+      ,
+      "PercentResistneutral": "15"
+      ,
+      "PercentFire": "50"
+      ,
+      "Vitality": "50"
+      ,
+      "Chance": "50"
+      ,
+      "AP": "1"
+    }
+  ]
+  ,
+  "Innumerable Set": [
+    {
+    }
+    ,
+    {
+      "Agility": "20"
+    }
+    ,
+    {
+      "Agility": "40"
+    }
+    ,
+    {
+      "Agility": "70"
+    }
+    ,
+    {
+      "Agility": "100"
+    }
+  ]
+  ,
+  "Iopset": [
+    {
+    }
+    ,
+    {
+      "Vitality": "10"
+    }
+    ,
+    {
+      "Vitality": "20"
+      ,
+      "Damage": "2"
+    }
+    ,
+    {
+      "Vitality": "40"
+      ,
+      "Damage": "4"
+      ,
+      "Range": "1"
+    }
+  ]
+  ,
+  "Jellix Set": [
+    {
+    }
+    ,
+    {
+      "Intelligence": "20"
+    }
+    ,
+    {
+      "Intelligence": "30"
+    }
+    ,
+    {
+      "Intelligence": "40"
+    }
+    ,
+    {
+      "Intelligence": "40"
+    }
+    ,
+    {
+      "Intelligence": "50"
+    }
+  ]
+  ,
+  "Kanniball Andchain Set": [
+    {
+    }
+    ,
+    {
+      "Vitality": "30"
+      ,
+      "Chance": "20"
+      ,
+      "Agility": "20"
+      ,
+      "Wisdom": "10"
+    }
+    ,
+    {
+      "Vitality": "60"
+      ,
+      "Chance": "35"
+      ,
+      "Agility": "35"
+      ,
+      "Wisdom": "15"
+    }
+    ,
+    {
+      "Vitality": "100"
+      ,
+      "Chance": "50"
+      ,
+      "Agility": "50"
+      ,
+      "Wisdom": "25"
+      ,
+      "MP": "1"
+    }
+  ]
+  ,
+  "Kitsou Set": [
+    {
+    }
+    ,
+    {
+      "Vitality": "40"
+    }
+    ,
+    {
+      "Vitality": "60"
+    }
+    ,
+    {
+      "Vitality": "100"
+    }
+  ]
+  ,
+  "Kloug Set": [
+    {
+    }
+    ,
+    {
+      "Vitality": "10"
+    }
+    ,
+    {
+      "Vitality": "20"
+      ,
+      "Chance": "10"
+    }
+    ,
+    {
+      "Vitality": "30"
+      ,
+      "Chance": "20"
+      ,
+      "Range": "2"
+    }
+  ]
+  ,
+  "Klume Set": [
+    {
+    }
+    ,
+    {
+      "Vitality": "10"
+    }
+    ,
+    {
+      "Vitality": "20"
+      ,
+      "Strength": "10"
+    }
+    ,
+    {
+      "Vitality": "30"
+      ,
+      "Strength": "20"
+      ,
+      "Range": "2"
+    }
+  ]
+  ,
+  "Koalak Set": [
+    {
+    }
+    ,
+    {
+      "Agility": "20"
+    }
+    ,
+    {
+      "Agility": "40"
+    }
+    ,
+    {
+      "Agility": "60"
+    }
+    ,
+    {
+      "Agility": "80"
+    }
+    ,
+    {
+      "Agility": "100"
+    }
+    ,
+    {
+      "Agility": "120"
+    }
+    ,
+    {
+      "Agility": "150"
+    }
+  ]
+  ,
+  "Koksiks Set": [
+    {
+    }
+    ,
+    {
+      "Vitality": "10"
+    }
+    ,
+    {
+      "Vitality": "20"
+      ,
+      "Wisdom": "10"
+    }
+    ,
+    {
+      "Vitality": "30"
+      ,
+      "Wisdom": "20"
+      ,
+      "Damage": "5"
+    }
+  ]
+  ,
+  "Kolosso Set": [
+    {
+    }
+    ,
+    {
+      "Fire": "12"
+      ,
+      "Air": "12"
+      ,
+      "Water": "12"
+      ,
+      "Lock": "5"
+      ,
+      "Criticalhit": "3"
+    }
+    ,
+    {
+      "Fire": "24"
+      ,
+      "Air": "24"
+      ,
+      "Water": "24"
+      ,
+      "Lock": "10"
+      ,
+      "Criticalhit": "6"
+      ,
+      "AP": "1"
+    }
+  ]
+  ,
+  "Koolich Set": [
+    {
+    }
+    ,
+    {
+      "Damage": "8"
+      ,
+      "Heal": "8"
+    }
+    ,
+    {
+      "Damage": "12"
+      ,
+      "Heal": "12"
+      ,
+      "Criticalhit": "6"
+    }
+    ,
+    {
+      "Damage": "16"
+      ,
+      "Heal": "16"
+      ,
+      "Criticalhit": "10"
+      ,
+      "Prospecting": "30"
+    }
+  ]
+  ,
+  "Korriander Set": [
+    {
+    }
+    ,
+    {
+      "Chance": "10"
+      ,
+      "Agility": "10"
+    }
+    ,
+    {
+      "Chance": "20"
+      ,
+      "Agility": "20"
+      ,
+      "APreductionability": "5"
+    }
+    ,
+    {
+      "Chance": "30"
+      ,
+      "Agility": "30"
+      ,
+      "APreductionability": "10"
+      ,
+      "AP": "1"
+    }
+  ]
+  ,
+  "Kwakwa Set": [
+    {
+    }
+    ,
+    {
+      "Vitality": "40"
+      ,
+      "Wisdom": "10"
+      ,
+      "PercentDamage": "20"
+      ,
+      "Resistearth": "5"
+      ,
+      "Resistfire": "5"
+      ,
+      "Resistwater": "5"
+      ,
+      "Resistair": "5"
+    }
+    ,
+    {
+      "Vitality": "80"
+      ,
+      "Wisdom": "20"
+      ,
+      "PercentDamage": "40"
+      ,
+      "Resistearth": "10"
+      ,
+      "Resistfire": "10"
+      ,
+      "Resistwater": "10"
+      ,
+      "Resistair": "10"
+      ,
+      "Range": "1"
+    }
+    ,
+    {
+      "Vitality": "120"
+      ,
+      "Wisdom": "30"
+      ,
+      "PercentDamage": "60"
+      ,
+      "Resistearth": "15"
+      ,
+      "Resistfire": "15"
+      ,
+      "Resistwater": "15"
+      ,
+      "Resistair": "15"
+      ,
+      "Range": "1"
+      ,
+      "AP": "1"
+    }
+  ]
+  ,
+  "Lamechester United Set": [
+    {
+    }
+    ,
+    {
+      "Vitality": "10"
+    }
+    ,
+    {
+      "Vitality": "20"
+      ,
+      "Wisdom": "10"
+    }
+    ,
+    {
+      "Vitality": "30"
+      ,
+      "Wisdom": "20"
+      ,
+      "Damage": "4"
+    }
+    ,
+    {
+      "Vitality": "40"
+      ,
+      "Wisdom": "30"
+      ,
+      "Damage": "8"
+      ,
+      "Summon": "1"
+    }
+  ]
+  ,
+  "Larval Set": [
+    {
+    }
+    ,
+    {
+      "Intelligence": "10"
+      ,
+      "Vitality": "20"
+    }
+    ,
+    {
+      "Intelligence": "20"
+      ,
+      "Vitality": "40"
+      ,
+      "Resistfire": "2"
+    }
+    ,
+    {
+      "Intelligence": "40"
+      ,
+      "Vitality": "60"
+      ,
+      "Resistfire": "4"
+    }
+    ,
+    {
+      "Intelligence": "60"
+      ,
+      "Vitality": "80"
+      ,
+      "Resistfire": "8"
+    }
+  ]
+  ,
+  "Legendary Crackler Set": [
+    {
+    }
+    ,
+    {
+      "Agility": "10"
+      ,
+      "Initiative": "10"
+    }
+    ,
+    {
+      "Agility": "11"
+      ,
+      "Initiative": "20"
+      ,
+      "Criticalhit": "1"
+    }
+    ,
+    {
+      "Agility": "12"
+      ,
+      "Initiative": "40"
+      ,
+      "Criticalhit": "2"
+    }
+    ,
+    {
+      "Agility": "13"
+      ,
+      "Initiative": "60"
+      ,
+      "Criticalhit": "4"
+      ,
+      "Wisdom": "10"
+    }
+    ,
+    {
+      "Agility": "14"
+      ,
+      "Initiative": "80"
+      ,
+      "Criticalhit": "6"
+      ,
+      "Wisdom": "20"
+    }
+    ,
+    {
+      "Agility": "15"
+      ,
+      "Initiative": "100"
+      ,
+      "Criticalhit": "8"
+      ,
+      "Wisdom": "30"
+      ,
+      "AP": "1"
+      ,
+      "PercentResistearth": "10"
+      ,
+      "PercentResistwater": "10"
+    }
+  ]
+  ,
+  "Lektor Set": [
+    {
+    }
+    ,
+    {
+      "Vitality": "10"
+      ,
+      "Initiative": "50"
+    }
+    ,
+    {
+      "Vitality": "20"
+      ,
+      "Initiative": "100"
+    }
+    ,
+    {
+      "Vitality": "30"
+      ,
+      "Initiative": "200"
+    }
+  ]
+  ,
+  "Lemon Set": [
+    {
+    }
+    ,
+    {
+      "Chance": "10"
+      ,
+      "Intelligence": "10"
+    }
+    ,
+    {
+      "Chance": "20"
+      ,
+      "Intelligence": "20"
+    }
+    ,
+    {
+      "Chance": "30"
+      ,
+      "Intelligence": "30"
+      ,
+      "Criticalhit": "3"
+    }
+  ]
+  ,
+  "Lethaline Set": [
+    {
+    }
+    ,
+    {
+      "Wisdom": "20"
+      ,
+      "Prospecting": "20"
+    }
+    ,
+    {
+      "Wisdom": "40"
+      ,
+      "Prospecting": "40"
+      ,
+      "AP": "1"
+    }
+  ]
+  ,
+  "Light Set": [
+    {
+    }
+    ,
+    {
+      "Vitality": "30"
+      ,
+      "Damage": "2"
+      ,
+      "Criticalhit": "2"
+    }
+    ,
+    {
+      "Vitality": "50"
+      ,
+      "Damage": "3"
+      ,
+      "Criticalhit": "3"
+      ,
+      "Range": "1"
+    }
+    ,
+    {
+      "Vitality": "80"
+      ,
+      "Damage": "6"
+      ,
+      "Criticalhit": "5"
+      ,
+      "Range": "1"
+      ,
+      "Wisdom": "20"
+    }
+  ]
+  ,
+  "Lispzoth Set": [
+    {
+    }
+    ,
+    {
+      "Vitality": "80"
+      ,
+      "Initiative": "100"
+    }
+  ]
+  ,
+  "Lonne's Set": [
+    {
+    }
+    ,
+    {
+      "Wisdom": "10"
+    }
+    ,
+    {
+      "Wisdom": "20"
+      ,
+      "Vitality": "20"
+    }
+    ,
+    {
+      "Wisdom": "30"
+      ,
+      "Vitality": "40"
+      ,
+      "Vitality": "5"
+    }
+  ]
+  ,
+  "Mastic Set": [
+    {
+    }
+    ,
+    {
+      "Chance": "40"
+      ,
+      "Agility": "40"
+    }
+    ,
+    {
+      "Chance": "40"
+      ,
+      "Agility": "40"
+      ,
+      "Wisdom": "40"
+    }
+    ,
+    {
+      "Chance": "40"
+      ,
+      "Agility": "40"
+      ,
+      "Wisdom": "40"
+      ,
+      "Prospecting": "40"
+    }
+  ]
+  ,
+  "Megaman Set": [
+    {
+    }
+    ,
+    {
+      "Chance": "10"
+      ,
+      "PercentResistwater": "5"
+    }
+    ,
+    {
+      "Chance": "40"
+      ,
+      "PercentResistwater": "10"
+      ,
+      "Vitality": "50"
+    }
+    ,
+    {
+      "Chance": "60"
+      ,
+      "PercentResistwater": "20"
+      ,
+      "Vitality": "80"
+    }
+  ]
+  ,
+  "Minotoror Set": [
+    {
+    }
+    ,
+    {
+      "Vitality": "20"
+    }
+    ,
+    {
+      "Vitality": "40"
+    }
+    ,
+    {
+      "Vitality": "60"
+      ,
+      "Heal": "4"
+    }
+    ,
+    {
+      "Vitality": "100"
+      ,
+      "Heal": "5"
+    }
+    ,
+    {
+      "Vitality": "150"
+      ,
+      "Heal": "6"
+      ,
+      "Wisdom": "10"
+    }
+    ,
+    {
+      "Vitality": "200"
+      ,
+      "Heal": "8"
+      ,
+      "Wisdom": "40"
+      ,
+      "AP": "1"
+    }
+  ]
+  ,
+  "Minotot Set": [
+    {
+    }
+    ,
+    {
+      "Chance": "10"
+      ,
+      "Intelligence": "10"
+      ,
+      "Heal": "1"
+    }
+    ,
+    {
+      "Chance": "20"
+      ,
+      "Intelligence": "20"
+      ,
+      "Heal": "2"
+    }
+    ,
+    {
+      "Chance": "30"
+      ,
+      "Intelligence": "30"
+      ,
+      "Heal": "3"
+    }
+    ,
+    {
+      "Chance": "40"
+      ,
+      "Intelligence": "40"
+      ,
+      "Heal": "4"
+      ,
+      "Wisdom": "10"
+    }
+    ,
+    {
+      "Chance": "50"
+      ,
+      "Intelligence": "50"
+      ,
+      "Heal": "5"
+      ,
+      "Wisdom": "20"
+    }
+    ,
+    {
+      "Chance": "60"
+      ,
+      "Intelligence": "60"
+      ,
+      "Heal": "6"
+      ,
+      "Wisdom": "30"
+      ,
+      "Range": "1"
+    }
+  ]
+  ,
+  "Moody Set": [
+    {
+    }
+    ,
+    {
+      "Agility": "20"
+      ,
+      "Intelligence": "20"
+      ,
+      "Chance": "20"
+      ,
+      "Strength": "20"
+      ,
+      "Wisdom": "20"
+      ,
+      "Damage": "3"
+      ,
+      "Heal": "3"
+      ,
+      "Prospecting": "10"
+    }
+    ,
+    {
+      "Agility": "40"
+      ,
+      "Intelligence": "40"
+      ,
+      "Chance": "40"
+      ,
+      "Strength": "40"
+      ,
+      "Wisdom": "40"
+      ,
+      "Damage": "7"
+      ,
+      "Heal": "7"
+      ,
+      "Prospecting": "20"
+    }
+    ,
+    {
+      "Agility": "70"
+      ,
+      "Intelligence": "70"
+      ,
+      "Chance": "70"
+      ,
+      "Strength": "70"
+      ,
+      "Wisdom": "70"
+      ,
+      "Damage": "12"
+      ,
+      "Heal": "12"
+      ,
+      "Prospecting": "30"
+      ,
+      "Summon": "1"
+      ,
+      "PercentResistair": "5"
+      ,
+      "PercentResistwater": "5"
+      ,
+      "PercentResistearth": "5"
+      ,
+      "PercentResistneutral": "5"
+      ,
+      "PercentResistfire": "5"
+    }
+    ,
+    {
+      "Agility": "100"
+      ,
+      "Intelligence": "100"
+      ,
+      "Chance": "100"
+      ,
+      "Strength": "100"
+      ,
+      "Wisdom": "100"
+      ,
+      "Damage": "20"
+      ,
+      "Heal": "20"
+      ,
+      "Prospecting": "40"
+      ,
+      "Summon": "1"
+      ,
+      "PercentResistair": "10"
+      ,
+      "PercentResistwater": "10"
+      ,
+      "PercentResistearth": "10"
+      ,
+      "PercentResistneutral": "10"
+      ,
+      "PercentResistfire": "10"
+      ,
+      "AP": "1"
+    }
+  ]
+  ,
+  "Moowolf Set": [
+    {
+    }
+    ,
+    {
+      "Damage": "2"
+    }
+    ,
+    {
+      "Damage": "4"
+    }
+    ,
+    {
+      "Damage": "6"
+    }
+    ,
+    {
+      "Damage": "7"
+    }
+    ,
+    {
+      "Damage": "8"
+    }
+  ]
+  ,
+  "Moskito Set": [
+    {
+    }
+    ,
+    {
+      "Chance": "10"
+      ,
+      "Vitality": "5"
+    }
+    ,
+    {
+      "Chance": "30"
+      ,
+      "Vitality": "10"
+    }
+    ,
+    {
+      "Chance": "40"
+      ,
+      "Vitality": "20"
+    }
+  ]
+  ,
+  "Mush Mush Set": [
+    {
+    }
+    ,
+    {
+      "Wisdom": "10"
+      ,
+      "Intelligence": "5"
+    }
+    ,
+    {
+      "Wisdom": "20"
+      ,
+      "Intelligence": "10"
+    }
+    ,
+    {
+      "Wisdom": "30"
+      ,
+      "Intelligence": "15"
+      ,
+      "Damage": "1"
+    }
+  ]
+  ,
+  "Mystery Set": [
+    {
+    }
+    ,
+    {
+      "Vitality": "10"
+    }
+    ,
+    {
+      "Vitality": "20"
+    }
+    ,
+    {
+      "Vitality": "30"
+    }
+  ]
+  ,
+  "Noke Set": [
+    {
+    }
+    ,
+    {
+      "Vitality": "10"
+    }
+    ,
+    {
+      "Vitality": "20"
+      ,
+      "Wisdom": "10"
+    }
+    ,
+    {
+      "Vitality": "30"
+      ,
+      "Wisdom": "20"
+      ,
+      "Criticalhit": "2"
+    }
+  ]
+  ,
+  "Novice Set": [
+    {
+    }
+    ,
+    {
+      "Vitality": "2"
+      ,
+      "Initiative": "2"
+    }
+    ,
+    {
+      "Vitality": "3"
+      ,
+      "Initiative": "3"
+    }
+    ,
+    {
+      "Vitality": "4"
+      ,
+      "Initiative": "4"
+    }
+    ,
+    {
+      "Vitality": "5"
+      ,
+      "Initiative": "5"
+    }
+    ,
+    {
+      "Vitality": "6"
+      ,
+      "Initiative": "6"
+    }
+    ,
+    {
+      "Vitality": "7"
+      ,
+      "Initiative": "7"
+    }
+    ,
+    {
+      "Vitality": "8"
+      ,
+      "Initiative": "8"
+    }
+  ]
+  ,
+  "O'Boul Set": [
+    {
+    }
+    ,
+    {
+      "Intelligence": "10"
+      ,
+      "Vitality": "20"
+      ,
+      "Criticalhit": "2"
+      ,
+      "Wisdom": "5"
+    }
+    ,
+    {
+      "Intelligence": "20"
+      ,
+      "Vitality": "40"
+      ,
+      "Criticalhit": "4"
+      ,
+      "Wisdom": "10"
+    }
+    ,
+    {
+      "Intelligence": "40"
+      ,
+      "Vitality": "80"
+      ,
+      "Criticalhit": "8"
+      ,
+      "Wisdom": "20"
+    }
+  ]
+  ,
+  "Obsidemon Set": [
+    {
+    }
+    ,
+    {
+      "Intelligence": "10"
+      ,
+      "Strength": "10"
+    }
+    ,
+    {
+      "Intelligence": "20"
+      ,
+      "Strength": "20"
+      ,
+      "Range": "1"
+    }
+    ,
+    {
+      "Intelligence": "30"
+      ,
+      "Strength": "30"
+      ,
+      "Range": "1"
+    }
+    ,
+    {
+      "Intelligence": "40"
+      ,
+      "Strength": "40"
+      ,
+      "Range": "2"
+    }
+  ]
+  ,
+  "Ogivol Set": [
+    {
+    }
+    ,
+    {
+      "Wisdom": "20"
+      ,
+      "Neutral": "4"
+      ,
+      "Earth": "4"
+      ,
+      "Water": "4"
+      ,
+      "Air": "4"
+      ,
+      "Criticalresistance": "6"
+    }
+    ,
+    {
+      "Wisdom": "40"
+      ,
+      "Neutral": "8"
+      ,
+      "Earth": "8"
+      ,
+      "Water": "8"
+      ,
+      "Air": "8"
+      ,
+      "Criticalresistance": "12"
+      ,
+      "MP": "-1"
+      ,
+      "AP": "1"
+    }
+  ]
+  ,
+  "Otomai Set": [
+    {
+    }
+    ,
+    {
+      "Intelligence": "20"
+      ,
+      "Criticalhit": "2"
+      ,
+      "Lock": "5"
+    }
+    ,
+    {
+      "Intelligence": "40"
+      ,
+      "Criticalhit": "4"
+      ,
+      "Lock": "10"
+      ,
+      "AP": "1"
+    }
+  ]
+  ,
+  "Ougaa Set": [
+    {
+    }
+    ,
+    {
+      "Damage": "2"
+      ,
+      "Wisdom": "10"
+      ,
+      "Prospecting": "10"
+    }
+    ,
+    {
+      "Damage": "4"
+      ,
+      "Wisdom": "20"
+      ,
+      "Prospecting": "20"
+    }
+    ,
+    {
+      "Damage": "6"
+      ,
+      "Wisdom": "30"
+      ,
+      "Prospecting": "30"
+      ,
+      "Range": "1"
+    }
+  ]
+  ,
+  "Oxo Set": [
+    {
+    }
+    ,
+    {
+      "Vitality": "10"
+    }
+    ,
+    {
+      "Vitality": "20"
+      ,
+      "Wisdom": "10"
+    }
+    ,
+    {
+      "Vitality": "30"
+      ,
+      "Wisdom": "20"
+      ,
+      "Damage": "5"
+    }
+  ]
+  ,
+  "Peggy the Lousy Pig Set": [
+    {
+    }
+    ,
+    {
+      "Vitality": "10"
+      ,
+      "Criticalhit": "2"
+    }
+    ,
+    {
+      "Vitality": "20"
+      ,
+      "Criticalhit": "4"
+    }
+    ,
+    {
+      "Vitality": "30"
+      ,
+      "Criticalhit": "6"
+      ,
+      "Wisdom": "10"
+    }
+  ]
+  ,
+  "Phong Huss Set": [
+    {
+    }
+    ,
+    {
+      "Vitality": "10"
+    }
+    ,
+    {
+      "Vitality": "20"
+      ,
+      "Damage": "3"
+    }
+    ,
+    {
+      "Vitality": "40"
+      ,
+      "Damage": "6"
+      ,
+      "Prospecting": "10"
+    }
+  ]
+  ,
+  "Pineapple Set": [
+    {
+    }
+    ,
+    {
+      "Prospecting": "10"
+    }
+    ,
+    {
+      "Prospecting": "20"
+    }
+  ]
+  ,
+  "Pink Piwi Set": [
+    {
+    }
+    ,
+    {
+      "Heal": "1"
+    }
+    ,
+    {
+      "Heal": "2"
+    }
+    ,
+    {
+      "Heal": "3"
+    }
+    ,
+    {
+      "Heal": "4"
+    }
+    ,
+    {
+      "Heal": "6"
+    }
+  ]
+  ,
+  "Pippin Blop Set": [
+    {
+    }
+    ,
+    {
+      "Resistearth": "10"
+      ,
+      "PercentResistfire": "5"
+      ,
+      "PercentResistwater": "5"
+      ,
+      "PercentResistair": "-60"
+      ,
+      "PercentResistneutral": "5"
+      ,
+      "Vitality": "10"
+      ,
+      "Strength": "10"
+    }
+    ,
+    {
+      "Resistearth": "20"
+      ,
+      "PercentResistfire": "10"
+      ,
+      "PercentResistwater": "10"
+      ,
+      "PercentResistair": "-55"
+      ,
+      "PercentResistneutral": "10"
+      ,
+      "Vitality": "30"
+      ,
+      "Strength": "30"
+    }
+    ,
+    {
+      "Resistearth": "30"
+      ,
+      "PercentResistfire": "15"
+      ,
+      "PercentResistwater": "15"
+      ,
+      "PercentResistair": "-50"
+      ,
+      "PercentResistneutral": "15"
+      ,
+      "Vitality": "50"
+      ,
+      "Strength": "50"
+      ,
+      "AP": "1"
+    }
+  ]
+  ,
+  "Platypus Set": [
+    {
+    }
+    ,
+    {
+      "Vitality": "10"
+      ,
+      "Wisdom": "5"
+      ,
+      "PercentDamage": "5"
+    }
+    ,
+    {
+      "Vitality": "20"
+      ,
+      "Wisdom": "10"
+      ,
+      "PercentDamage": "10"
+    }
+    ,
+    {
+      "Vitality": "30"
+      ,
+      "Wisdom": "15"
+      ,
+      "PercentDamage": "15"
+    }
+    ,
+    {
+      "Vitality": "40"
+      ,
+      "Wisdom": "20"
+      ,
+      "PercentDamage": "20"
+    }
+    ,
+    {
+      "Vitality": "50"
+      ,
+      "Wisdom": "25"
+      ,
+      "PercentDamage": "25"
+      ,
+      "Range": "1"
+    }
+    ,
+    {
+      "Vitality": "50"
+      ,
+      "Wisdom": "25"
+      ,
+      "PercentDamage": "25"
+      ,
+      "Range": "1"
+      ,
+      "MP": "1"
+      ,
+      "AP": "1"
+    }
+  ]
+  ,
+  "Plunder Set": [
+    {
+    }
+    ,
+    {
+      "Vitality": "10"
+    }
+    ,
+    {
+      "Vitality": "20"
+      ,
+      "Heal": "3"
+    }
+    ,
+    {
+      "Vitality": "40"
+      ,
+      "Heal": "6"
+      ,
+      "PercentDamage": "20"
+    }
+  ]
+  ,
+  "Posh Set": [
+    {
+    }
+    ,
+    {
+      "Initiative": "100"
+    }
+    ,
+    {
+      "Initiative": "200"
+      ,
+      "Damage": "5"
+    }
+  ]
+  ,
+  "Prespic Set": [
+    {
+    }
+    ,
+    {
+      "Damage": "2"
+    }
+    ,
+    {
+      "Damage": "5"
+      ,
+      "Wisdom": "15"
+    }
+    ,
+    {
+      "Damage": "8"
+      ,
+      "Wisdom": "30"
+    }
+  ]
+  ,
+  "Prince of Thieves Set": [
+    {
+    }
+    ,
+    {
+      "Agility": "20"
+    }
+    ,
+    {
+      "Agility": "40"
+    }
+    ,
+    {
+      "Agility": "70"
+    }
+    ,
+    {
+      "Agility": "100"
+    }
+  ]
+  ,
+  "Professor Xa Set": [
+    {
+    }
+    ,
+    {
+      "Strength": "25"
+      ,
+      "Intelligence": "25"
+      ,
+      "Chance": "25"
+      ,
+      "Wisdom": "10"
+      ,
+      "APreductionability": "3"
+      ,
+      "Dodge": "3"
+    }
+    ,
+    {
+      "Strength": "50"
+      ,
+      "Intelligence": "50"
+      ,
+      "Chance": "50"
+      ,
+      "Wisdom": "20"
+      ,
+      "APreductionability": "6"
+      ,
+      "Dodge": "6"
+      ,
+      "MP": "-1"
+    }
+    ,
+    {
+      "Strength": "75"
+      ,
+      "Intelligence": "75"
+      ,
+      "Chance": "75"
+      ,
+      "Wisdom": "30"
+      ,
+      "APreductionability": "9"
+      ,
+      "Dodge": "9"
+      ,
+      "AP": "-1"
+    }
+    ,
+    {
+      "Strength": "100"
+      ,
+      "Intelligence": "100"
+      ,
+      "Chance": "100"
+      ,
+      "Wisdom": "40"
+      ,
+      "APreductionability": "12"
+      ,
+      "Dodge": "12"
+      ,
+      "AP": "-1"
+      ,
+      "MP": "-1"
+    }
+  ]
+  ,
+  "Purple Piwi Set": [
+    {
+    }
+    ,
+    {
+      "Wisdom": "1"
+    }
+    ,
+    {
+      "Wisdom": "2"
+    }
+    ,
+    {
+      "Wisdom": "3"
+    }
+    ,
+    {
+      "Wisdom": "4"
+    }
+    ,
+    {
+      "Wisdom": "10"
+    }
+  ]
+  ,
+  "Pynekone Set": [
+    {
+    }
+    ,
+    {
+      "Vitality": "20"
+    }
+    ,
+    {
+      "Vitality": "40"
+      ,
+      "Strength": "20"
+    }
+    ,
+    {
+      "Vitality": "60"
+      ,
+      "Strength": "30"
+      ,
+      "Damage": "8"
+    }
+  ]
+  ,
+  "Real Gobbly Set": [
+    {
+    }
+    ,
+    {
+      "Vitality": "10"
+    }
+    ,
+    {
+      "Vitality": "20"
+      ,
+      "Wisdom": "10"
+    }
+    ,
+    {
+      "Vitality": "30"
+      ,
+      "Wisdom": "20"
+      ,
+      "Damage": "4"
+    }
+    ,
+    {
+      "Vitality": "40"
+      ,
+      "Wisdom": "30"
+      ,
+      "Damage": "8"
+      ,
+      "Summon": "1"
+    }
+  ]
+  ,
+  "Reckless Set": [
+    {
+    }
+    ,
+    {
+      "Agility": "20"
+    }
+    ,
+    {
+      "Agility": "40"
+    }
+    ,
+    {
+      "Agility": "70"
+    }
+    ,
+    {
+      "Agility": "100"
+    }
+  ]
+  ,
+  "Red Piwi Set": [
+    {
+    }
+    ,
+    {
+      "Intelligence": "1"
+    }
+    ,
+    {
+      "Intelligence": "2"
+    }
+    ,
+    {
+      "Intelligence": "4"
+    }
+    ,
+    {
+      "Intelligence": "8"
+    }
+    ,
+    {
+      "Intelligence": "16"
+    }
+  ]
+  ,
+  "Red Scaraleaf Set": [
+    {
+    }
+    ,
+    {
+      "Intelligence": "10"
+      ,
+      "PercentResistfire": "5"
+    }
+    ,
+    {
+      "Intelligence": "40"
+      ,
+      "PercentResistfire": "10"
+      ,
+      "Vitality": "40"
+    }
+    ,
+    {
+      "Intelligence": "60"
+      ,
+      "PercentResistfire": "20"
+      ,
+      "Vitality": "80"
+    }
+  ]
+  ,
+  "Royal Cherry Blop Set": [
+    {
+    }
+    ,
+    {
+      "Intelligence": "10"
+      ,
+      "Wisdom": "10"
+      ,
+      "Criticalhit": "2"
+    }
+    ,
+    {
+      "Intelligence": "20"
+      ,
+      "Wisdom": "20"
+      ,
+      "Criticalhit": "4"
+    }
+    ,
+    {
+      "Intelligence": "30"
+      ,
+      "Wisdom": "30"
+      ,
+      "Criticalhit": "6"
+    }
+  ]
+  ,
+  "Royal Coco Blop Set": [
+    {
+    }
+    ,
+    {
+      "Agility": "10"
+      ,
+      "Wisdom": "10"
+      ,
+      "Criticalhit": "2"
+    }
+    ,
+    {
+      "Agility": "20"
+      ,
+      "Wisdom": "20"
+      ,
+      "Criticalhit": "4"
+    }
+    ,
+    {
+      "Agility": "30"
+      ,
+      "Wisdom": "30"
+      ,
+      "Criticalhit": "6"
+    }
+  ]
+  ,
+  "Royal Gobball Set": [
+    {
+    }
+    ,
+    {
+      "Vitality": "20"
+    }
+    ,
+    {
+      "Vitality": "30"
+      ,
+      "Damage": "2"
+    }
+    ,
+    {
+      "Strength": "40"
+      ,
+      "Vitality": "40"
+      ,
+      "Damage": "3"
+    }
+    ,
+    {
+      "Strength": "50"
+      ,
+      "Vitality": "50"
+      ,
+      "Damage": "4"
+    }
+    ,
+    {
+      "Strength": "60"
+      ,
+      "Vitality": "60"
+      ,
+      "Damage": "5"
+      ,
+      "Intelligence": "60"
+    }
+    ,
+    {
+      "Strength": "70"
+      ,
+      "Vitality": "70"
+      ,
+      "Damage": "6"
+      ,
+      "Intelligence": "70"
+      ,
+      "AP": "1"
+    }
+  ]
+  ,
+  "Royal Indigo Blop Set": [
+    {
+    }
+    ,
+    {
+      "Chance": "10"
+      ,
+      "Wisdom": "10"
+      ,
+      "Criticalhit": "2"
+    }
+    ,
+    {
+      "Chance": "20"
+      ,
+      "Wisdom": "20"
+      ,
+      "Criticalhit": "4"
+    }
+    ,
+    {
+      "Chance": "30"
+      ,
+      "Wisdom": "30"
+      ,
+      "Criticalhit": "6"
+    }
+  ]
+  ,
+  "Royal Mastogob Set": [
+    {
+    }
+    ,
+    {
+      "Intelligence": "10"
+      ,
+      "Chance": "10"
+      ,
+      "Damage": "5"
+    }
+    ,
+    {
+      "Intelligence": "20"
+      ,
+      "Chance": "20"
+      ,
+      "Damage": "10"
+    }
+    ,
+    {
+      "Intelligence": "30"
+      ,
+      "Chance": "30"
+      ,
+      "Damage": "20"
+    }
+  ]
+  ,
+  "Royal Pingwin Set": [
+    {
+    }
+    ,
+    {
+      "Strength": "15"
+      ,
+      "Chance": "15"
+      ,
+      "Lock": "5"
+    }
+    ,
+    {
+      "Strength": "30"
+      ,
+      "Chance": "30"
+      ,
+      "Lock": "10"
+    }
+  ]
+  ,
+  "Royal Pippin Blop Set": [
+    {
+    }
+    ,
+    {
+      "Strength": "10"
+      ,
+      "Wisdom": "10"
+      ,
+      "Criticalhit": "2"
+    }
+    ,
+    {
+      "Strength": "20"
+      ,
+      "Wisdom": "20"
+      ,
+      "Criticalhit": "4"
+    }
+    ,
+    {
+      "Strength": "30"
+      ,
+      "Wisdom": "30"
+      ,
+      "Criticalhit": "6"
+    }
+  ]
+  ,
+  "Royal Rainbow Blop Set": [
+    {
+    }
+    ,
+    {
+      "Vitality": "10"
+    }
+    ,
+    {
+      "Vitality": "20"
+    }
+    ,
+    {
+      "Vitality": "30"
+    }
+  ]
+  ,
+  "Set of Eastern Wood": [
+    {
+    }
+    ,
+    {
+      "Agility": "10"
+      ,
+      "Vitality": "10"
+    }
+    ,
+    {
+      "Agility": "20"
+      ,
+      "Vitality": "20"
+    }
+    ,
+    {
+      "Agility": "30"
+      ,
+      "Vitality": "30"
+      ,
+      "Damage": "3"
+    }
+  ]
+  ,
+  "Set of the Prophets": [
+    {
+    }
+    ,
+    {
+      "Intelligence": "20"
+      ,
+      "Chance": "20"
+      ,
+      "MPreductionability": "3"
+    }
+    ,
+    {
+      "Intelligence": "40"
+      ,
+      "Chance": "40"
+      ,
+      "MPreductionability": "6"
+      ,
+      "Range": "1"
+    }
+  ]
+  ,
+  "Shika Ingalsse Set": [
+    {
+    }
+    ,
+    {
+      "Vitality": "10"
+    }
+    ,
+    {
+      "Vitality": "20"
+    }
+    ,
+    {
+      "Vitality": "30"
+    }
+    ,
+    {
+      "Vitality": "40"
+      ,
+      "Resistfire": "6"
+    }
+    ,
+    {
+      "Vitality": "50"
+    }
+    ,
+    {
+      "Vitality": "60"
+    }
+  ]
+  ,
+  "Shroom Set": [
+    {
+    }
+    ,
+    {
+      "Damage": "25"
+      ,
+      "Agility": "10"
+    }
+    ,
+    {
+      "Damage": "50"
+      ,
+      "Agility": "20"
+      ,
+      "Wisdom": "10"
+    }
+    ,
+    {
+      "Damage": "80"
+      ,
+      "Agility": "40"
+      ,
+      "Wisdom": "20"
+      ,
+      "AP": "1"
+    }
+  ]
+  ,
+  "Slait Set": [
+    {
+    }
+    ,
+    {
+      "Vitality": "10"
+      ,
+      "Heal": "1"
+    }
+    ,
+    {
+      "Vitality": "20"
+      ,
+      "Heal": "2"
+      ,
+      "Wisdom": "10"
+    }
+    ,
+    {
+      "Vitality": "40"
+      ,
+      "Heal": "4"
+      ,
+      "Wisdom": "20"
+      ,
+      "Range": "1"
+    }
+  ]
+  ,
+  "Slamdance set": [
+    {
+    }
+    ,
+    {
+      "Vitality": "10"
+    }
+    ,
+    {
+      "Vitality": "20"
+      ,
+      "Intelligence": "10"
+    }
+    ,
+    {
+      "Vitality": "30"
+      ,
+      "Intelligence": "20"
+      ,
+      "Range": "1"
+    }
+  ]
+  ,
+  "Sleet Set": [
+    {
+    }
+    ,
+    {
+      "Strength": "15"
+      ,
+      "Chance": "15"
+    }
+    ,
+    {
+      "Strength": "30"
+      ,
+      "Chance": "30"
+    }
+    ,
+    {
+      "Strength": "50"
+      ,
+      "Chance": "50"
+      ,
+      "MP": "1"
+    }
+  ]
+  ,
+  "Sloppy Set": [
+    {
+    }
+    ,
+    {
+      "Strength": "20"
+      ,
+      "Chance": "20"
+      ,
+      "Damage": "4"
+    }
+    ,
+    {
+      "Strength": "30"
+      ,
+      "Chance": "30"
+      ,
+      "Wisdom": "20"
+      ,
+      "Damage": "6"
+      ,
+      "AP": "1"
+    }
+  ]
+  ,
+  "Slugly Set": [
+    {
+    }
+    ,
+    {
+      "Vitality": "10"
+    }
+    ,
+    {
+      "Vitality": "20"
+      ,
+      "Intelligence": "10"
+    }
+    ,
+    {
+      "Vitality": "30"
+      ,
+      "Intelligence": "20"
+      ,
+      "Wisdom": "15"
+    }
+  ]
+  ,
+  "Slump Set": [
+    {
+    }
+    ,
+    {
+      "Vitality": "10"
+    }
+    ,
+    {
+      "Vitality": "20"
+      ,
+      "Criticalhit": "1"
+    }
+    ,
+    {
+      "Vitality": "30"
+      ,
+      "Criticalhit": "2"
+      ,
+      "Wisdom": "20"
+    }
+  ]
+  ,
+  "Soft Oak Set": [
+    {
+    }
+    ,
+    {
+      "Vitality": "20"
+    }
+    ,
+    {
+      "Vitality": "40"
+      ,
+      "Damage": "1"
+      ,
+      "Heal": "1"
+    }
+    ,
+    {
+      "Vitality": "60"
+      ,
+      "Damage": "2"
+      ,
+      "Heal": "2"
+      ,
+      "Wisdom": "10"
+    }
+    ,
+    {
+      "Vitality": "80"
+      ,
+      "Damage": "3"
+      ,
+      "Heal": "3"
+      ,
+      "Wisdom": "20"
+      ,
+      "PercentDamage": "10"
+    }
+    ,
+    {
+      "Vitality": "100"
+      ,
+      "Damage": "4"
+      ,
+      "Heal": "4"
+      ,
+      "Wisdom": "30"
+      ,
+      "PercentDamage": "20"
+      ,
+      "MP": "1"
+    }
+  ]
+  ,
+  "Solaris Set": [
+    {
+    }
+    ,
+    {
+      "Vitality": "10"
+    }
+    ,
+    {
+      "Vitality": "20"
+      ,
+      "Chance": "10"
+    }
+    ,
+    {
+      "Vitality": "30"
+      ,
+      "Chance": "20"
+      ,
+      "Summon": "1"
+    }
+  ]
+  ,
+  "Sovereign Set": [
+    {
+    }
+    ,
+    {
+      "Vitality": "30"
+      ,
+      "Wisdom": "10"
+      ,
+      "Prospecting": "5"
+    }
+    ,
+    {
+      "Vitality": "60"
+      ,
+      "Wisdom": "20"
+      ,
+      "Prospecting": "10"
+      ,
+      "Range": "1"
+    }
+  ]
+  ,
+  "Sponge Set": [
+    {
+    }
+    ,
+    {
+      "Vitality": "5"
+    }
+    ,
+    {
+      "Vitality": "10"
+    }
+    ,
+    {
+      "Vitality": "15"
+    }
+    ,
+    {
+      "Vitality": "20"
+    }
+    ,
+    {
+      "Vitality": "30"
+    }
+    ,
+    {
+      "Vitality": "40"
+    }
+    ,
+    {
+      "Vitality": "50"
+    }
+  ]
+  ,
+  "Stringsecticide Set": [
+    {
+    }
+    ,
+    {
+      "Intelligence": "20"
+    }
+    ,
+    {
+      "Intelligence": "30"
+    }
+    ,
+    {
+      "Intelligence": "40"
+    }
+  ]
+  ,
+  "Stroy Zemol Set": [
+    {
+    }
+    ,
+    {
+      "Intelligence": "10"
+      ,
+      "Damage": "1"
+    }
+    ,
+    {
+      "Intelligence": "20"
+      ,
+      "Damage": "2"
+      ,
+      "PercentDamage": "5"
+    }
+    ,
+    {
+      "Intelligence": "30"
+      ,
+      "Damage": "4"
+      ,
+      "PercentDamage": "10"
+    }
+  ]
+  ,
+  "Sucker Set": [
+    {
+    }
+    ,
+    {
+      "Wisdom": "20"
+    }
+    ,
+    {
+      "Wisdom": "20"
+      ,
+      "AP": "1"
+    }
+  ]
+  ,
+  "Tengu Snowfoux Set": [
+    {
+    }
+    ,
+    {
+      "Intelligence": "10"
+      ,
+      "Agility": "10"
+    }
+    ,
+    {
+      "Intelligence": "20"
+      ,
+      "Agility": "20"
+      ,
+      "Dodge": "5"
+    }
+    ,
+    {
+      "Intelligence": "30"
+      ,
+      "Agility": "30"
+      ,
+      "Dodge": "10"
+      ,
+      "MP": "1"
+    }
+  ]
+  ,
+  "Terrdala Set": [
+    {
+    }
+    ,
+    {
+      "Vitality": "10"
+    }
+    ,
+    {
+      "Vitality": "20"
+    }
+    ,
+    {
+      "Vitality": "40"
+    }
+    ,
+    {
+      "Vitality": "60"
+    }
+    ,
+    {
+      "Vitality": "100"
+    }
+    ,
+    {
+      "Vitality": "150"
+    }
+    ,
+    {
+      "Vitality": "250"
+    }
+  ]
+  ,
+  "Tetra Set": [
+    {
+    }
+    ,
+    {
+      "Vitality": "10"
+      ,
+      "Wisdom": "5"
+    }
+    ,
+    {
+      "Vitality": "20"
+      ,
+      "Wisdom": "10"
+    }
+    ,
+    {
+      "Vitality": "40"
+      ,
+      "Wisdom": "20"
+    }
+  ]
+  ,
+  "The Empire Set": [
+    {
+    }
+    ,
+    {
+      "Strength": "10"
+    }
+    ,
+    {
+      "Strength": "20"
+    }
+    ,
+    {
+      "Strength": "30"
+    }
+  ]
+  ,
+  "The Godfather Set": [
+    {
+    }
+    ,
+    {
+      "Agility": "10"
+      ,
+      "Chance": "10"
+      ,
+      "Vitality": "10"
+    }
+    ,
+    {
+      "Agility": "20"
+      ,
+      "Chance": "20"
+      ,
+      "Vitality": "20"
+    }
+    ,
+    {
+      "Agility": "30"
+      ,
+      "Chance": "30"
+      ,
+      "Vitality": "30"
+      ,
+      "Wisdom": "20"
+      ,
+      "Range": "1"
+    }
+    ,
+    {
+      "Agility": "40"
+      ,
+      "Chance": "40"
+      ,
+      "Vitality": "40"
+      ,
+      "Wisdom": "30"
+      ,
+      "Range": "2"
+      ,
+      "MP": "1"
+    }
+  ]
+  ,
+  "Timeless Set": [
+    {
+    }
+    ,
+    {
+      "Agility": "20"
+    }
+    ,
+    {
+      "Agility": "40"
+    }
+    ,
+    {
+      "Agility": "70"
+    }
+    ,
+    {
+      "Agility": "100"
+    }
+  ]
+  ,
+  "Toady Set": [
+    {
+    }
+    ,
+    {
+      "Agility": "50"
+      ,
+      "Damage": "5"
+      ,
+      "Criticalhit": "5"
+    }
+  ]
+  ,
+  "Tofu Set": [
+    {
+    }
+    ,
+    {
+      "Initiative": "50"
+      ,
+      "Damage": "2"
+    }
+    ,
+    {
+      "Initiative": "100"
+      ,
+      "Damage": "3"
+      ,
+      "Agility": "5"
+      ,
+      "Vitality": "5"
+    }
+    ,
+    {
+      "Initiative": "150"
+      ,
+      "Damage": "4"
+      ,
+      "Agility": "10"
+      ,
+      "Vitality": "10"
+    }
+    ,
+    {
+      "Initiative": "200"
+      ,
+      "Damage": "5"
+      ,
+      "Agility": "20"
+      ,
+      "Vitality": "20"
+    }
+    ,
+    {
+      "Initiative": "250"
+      ,
+      "Damage": "6"
+      ,
+      "Agility": "40"
+      ,
+      "Vitality": "40"
+      ,
+      "Wisdom": "15"
+    }
+    ,
+    {
+      "Initiative": "300"
+      ,
+      "Damage": "7"
+      ,
+      "Agility": "60"
+      ,
+      "Vitality": "60"
+      ,
+      "Wisdom": "30"
+    }
+  ]
+  ,
+  "Treechnid Set": [
+    {
+    }
+    ,
+    {
+      "Strength": "10"
+    }
+    ,
+    {
+      "Strength": "10"
+    }
+    ,
+    {
+      "Strength": "20"
+      ,
+      "PercentResistneutral": "10"
+    }
+    ,
+    {
+      "Strength": "30"
+      ,
+      "PercentResistneutral": "15"
+      ,
+      "PercentResistearth": "15"
+    }
+    ,
+    {
+      "Strength": "40"
+      ,
+      "PercentResistneutral": "20"
+      ,
+      "PercentResistearth": "20"
+      ,
+      "PercentFire": "20"
+      ,
+      "PercentAir": "20"
+    }
+    ,
+    {
+      "Strength": "50"
+      ,
+      "PercentResistneutral": "20"
+      ,
+      "PercentResistearth": "20"
+      ,
+      "PercentFire": "20"
+      ,
+      "PercentAir": "20"
+      ,
+      "Damage": "4"
+      ,
+      "AP": "1"
+    }
+  ]
+  ,
+  "Turko Set": [
+    {
+    }
+    ,
+    {
+      "Vitality": "40"
+      ,
+      "Agility": "40"
+    }
+    ,
+    {
+      "Vitality": "50"
+      ,
+      "Agility": "50"
+      ,
+      "Prospecting": "20"
+    }
+    ,
+    {
+      "Vitality": "60"
+      ,
+      "Agility": "60"
+      ,
+      "Prospecting": "20"
+      ,
+      "MP": "1"
+    }
+  ]
+  ,
+  "Turtle Set": [
+    {
+    }
+    ,
+    {
+      "Chance": "50"
+      ,
+      "Prospecting": "10"
+    }
+    ,
+    {
+      "Chance": "70"
+      ,
+      "Prospecting": "20"
+      ,
+      "Damage": "3"
+    }
+    ,
+    {
+      "Chance": "80"
+      ,
+      "Prospecting": "30"
+      ,
+      "Damage": "6"
+      ,
+      "Range": "1"
+    }
+  ]
+  ,
+  "Ugo Set": [
+    {
+    }
+    ,
+    {
+      "Vitality": "10"
+    }
+    ,
+    {
+      "Vitality": "20"
+      ,
+      "Damage": "2"
+    }
+    ,
+    {
+      "Vitality": "30"
+      ,
+      "Damage": "4"
+      ,
+      "Summon": "1"
+    }
+  ]
+  ,
+  "Undergrowth Set": [
+    {
+    }
+    ,
+    {
+      "Chance": "15"
+      ,
+      "Damage": "2"
+      ,
+      "Criticalhit": "2"
+    }
+    ,
+    {
+      "Chance": "30"
+      ,
+      "Damage": "4"
+      ,
+      "Criticalhit": "4"
+      ,
+      "Prospecting": "15"
+    }
+  ]
+  ,
+  "Vassal Set": [
+    {
+    }
+    ,
+    {
+      "Intelligence": "5"
+      ,
+      "Agility": "5"
+      ,
+      "Heal": "1"
+    }
+    ,
+    {
+      "Intelligence": "10"
+      ,
+      "Agility": "10"
+      ,
+      "Wisdom": "10"
+      ,
+      "Heal": "3"
+    }
+    ,
+    {
+      "Intelligence": "20"
+      ,
+      "Agility": "20"
+      ,
+      "Wisdom": "20"
+      ,
+      "Heal": "5"
+      ,
+      "Range": "1"
+    }
+  ]
+  ,
+  "Vegetative Set": [
+    {
+    }
+    ,
+    {
+      "Prospecting": "15"
+    }
+    ,
+    {
+      "Prospecting": "15"
+      ,
+      "AP": "1"
+    }
+  ]
+  ,
+  "Venerable Set": [
+    {
+    }
+    ,
+    {
+      "Agility": "20"
+    }
+    ,
+    {
+      "Agility": "40"
+    }
+    ,
+    {
+      "Agility": "70"
+    }
+    ,
+    {
+      "Agility": "100"
+    }
+  ]
+  ,
+  "Viootifool Set": [
+    {
+    }
+    ,
+    {
+      "Intelligence": "10"
+      ,
+      "PercentResistfire": "5"
+    }
+    ,
+    {
+      "Intelligence": "40"
+      ,
+      "PercentResistfire": "10"
+      ,
+      "Vitality": "50"
+    }
+    ,
+    {
+      "Intelligence": "60"
+      ,
+      "PercentResistfire": "20"
+      ,
+      "Vitality": "80"
+    }
+  ]
+  ,
+  "Wa Set": [
+    {
+    }
+    ,
+    {
+    }
+    ,
+    {
+    }
+  ]
+  ,
+  "Wabbit Set": [
+    {
+    }
+    ,
+    {
+      "Vitality": "50"
+    }
+    ,
+    {
+      "Vitality": "100"
+    }
+    ,
+    {
+      "Vitality": "100"
+    }
+    ,
+    {
+      "Vitality": "100"
+    }
+    ,
+    {
+      "Vitality": "200"
+    }
+    ,
+    {
+      "Vitality": "250"
+    }
+  ]
+  ,
+  "White Rat Set": [
+    {
+    }
+    ,
+    {
+      "Vitality": "10"
+    }
+    ,
+    {
+      "Vitality": "15"
+      ,
+      "Strength": "10"
+      ,
+      "Agility": "10"
+    }
+    ,
+    {
+      "Vitality": "20"
+      ,
+      "Strength": "15"
+      ,
+      "Agility": "15"
+    }
+    ,
+    {
+      "Vitality": "30"
+      ,
+      "Strength": "20"
+      ,
+      "Agility": "20"
+      ,
+      "PercentResistneutral": "2"
+      ,
+      "PercentResistair": "2"
+    }
+    ,
+    {
+      "Vitality": "40"
+      ,
+      "Strength": "30"
+      ,
+      "Agility": "30"
+      ,
+      "PercentResistneutral": "5"
+      ,
+      "PercentResistair": "5"
+    }
+    ,
+    {
+      "Vitality": "50"
+      ,
+      "Strength": "40"
+      ,
+      "Agility": "40"
+      ,
+      "PercentResistneutral": "10"
+      ,
+      "PercentResistair": "10"
+      ,
+      "AP": "1"
+    }
+  ]
+  ,
+  "White Scaraleaf Set": [
+    {
+    }
+    ,
+    {
+      "Agility": "10"
+      ,
+      "PercentResistair": "5"
+    }
+    ,
+    {
+      "Agility": "40"
+      ,
+      "PercentResistair": "10"
+      ,
+      "Vitality": "40"
+    }
+    ,
+    {
+      "Agility": "60"
+      ,
+      "PercentResistair": "20"
+      ,
+      "Vitality": "80"
+    }
+  ]
+  ,
+  "Wild Set": [
+    {
+    }
+    ,
+    {
+      "Agility": "20"
+    }
+    ,
+    {
+      "Agility": "40"
+    }
+    ,
+    {
+      "Agility": "70"
+    }
+    ,
+    {
+      "Agility": "100"
+    }
+  ]
+  ,
+  "Wind Kwak Set": [
+    {
+    }
+    ,
+    {
+      "Agility": "15"
+      ,
+      "Vitality": "15"
+    }
+    ,
+    {
+      "Agility": "20"
+      ,
+      "Vitality": "20"
+      ,
+      "Strength": "10"
+    }
+    ,
+    {
+      "Agility": "25"
+      ,
+      "Vitality": "25"
+      ,
+      "Strength": "15"
+      ,
+      "Wisdom": "5"
+    }
+    ,
+    {
+      "Agility": "30"
+      ,
+      "Vitality": "30"
+      ,
+      "Strength": "20"
+      ,
+      "Wisdom": "10"
+      ,
+      "Range": "1"
+    }
+    ,
+    {
+      "Agility": "35"
+      ,
+      "Vitality": "35"
+      ,
+      "Strength": "25"
+      ,
+      "Wisdom": "15"
+      ,
+      "Range": "1"
+      ,
+      "MP": "1"
+    }
+    ,
+    {
+      "Agility": "45"
+      ,
+      "Vitality": "45"
+      ,
+      "Strength": "30"
+      ,
+      "Wisdom": "20"
+      ,
+      "Range": "1"
+      ,
+      "MP": "1"
+      ,
+      "AP": "1"
+    }
+    ,
+    {
+      "Agility": "55"
+      ,
+      "Vitality": "55"
+      ,
+      "Strength": "35"
+      ,
+      "Wisdom": "25"
+      ,
+      "Range": "1"
+      ,
+      "MP": "1"
+      ,
+      "AP": "1"
+      ,
+      "PercentResistair": "10"
+    }
+  ]
+  ,
+  "Yellow Piwi Set": [
+    {
+    }
+    ,
+    {
+      "Strength": "1"
+    }
+    ,
+    {
+      "Strength": "2"
+    }
+    ,
+    {
+      "Strength": "4"
+    }
+    ,
+    {
+      "Strength": "8"
+    }
+    ,
+    {
+      "Strength": "16"
+    }
+  ]
+  ,
+  "Young Adventurer Set": [
+    {
+    }
+    ,
+    {
+      "Agility": "10"
+      ,
+      "Wisdom": "10"
+      ,
+      "Strength": "10"
+      ,
+      "Intelligence": "10"
+      ,
+      "Chance": "10"
+      ,
+      "Vitality": "10"
+    }
+    ,
+    {
+      "Agility": "15"
+      ,
+      "Wisdom": "15"
+      ,
+      "Strength": "15"
+      ,
+      "Intelligence": "15"
+      ,
+      "Chance": "15"
+      ,
+      "Vitality": "15"
+    }
+    ,
+    {
+      "Agility": "20"
+      ,
+      "Wisdom": "20"
+      ,
+      "Strength": "20"
+      ,
+      "Intelligence": "20"
+      ,
+      "Chance": "20"
+      ,
+      "Vitality": "20"
+    }
+    ,
+    {
+      "Agility": "25"
+      ,
+      "Wisdom": "25"
+      ,
+      "Strength": "25"
+      ,
+      "Intelligence": "25"
+      ,
+      "Chance": "25"
+      ,
+      "Vitality": "25"
+    }
+    ,
+    {
+      "Agility": "40"
+      ,
+      "Wisdom": "40"
+      ,
+      "Strength": "40"
+      ,
+      "Intelligence": "40"
+      ,
+      "Chance": "40"
+      ,
+      "Vitality": "40"
+    }
+  ]
+  ,
+  "Zothician Set": [
+    {
+    }
+    ,
+    {
+      "Damage": "8"
+    }
+  ]
+  ,
+  "Zothulist Set": [
+    {
+    }
+    ,
+    {
+      "Intelligence": "25"
+    }
+  ]
+}

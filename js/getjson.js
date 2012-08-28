@@ -6,6 +6,7 @@ var inventory = {};
 var multibyte_to_singlebyte = {};
 
 var equipment_type_list = ["Amulet", "Boots", "Belt", "Cloak", "Hat", "Ring"];
+var max_number_of_equipment_dict = {"Ring" : 2, "Dofus": 6};
 
 $(document).ready(function(){
     loadJson();
@@ -283,10 +284,12 @@ function setForgeType(){
 function builderForgeEvent(){
     $("#forge").click(function(){
 	type = multibyte_to_singlebyte[$("#forge_type").val()];
-	max = status_id_json[type]["max"];
-	console.log(max);
-	builderStatusAppend(type, 0, 0, max);
-	setForgeType();
+	if(type != undefined){
+	    max = status_id_json[type]["max"];
+	    console.log(max);
+	    builderStatusAppend(type, 0, 0, max);
+	    setForgeType();
+	}
     });
 }
 
