@@ -25,6 +25,7 @@ function getItemData(name){
 	        if(name == n){
 		        var item = equipment_json[equipment_type_list[i]][name];
 		        item["Type"] = equipment_type_list[i];
+		        item["Key"] = name;
 		        item["Name"] = name;
 		        return item;
 	        }

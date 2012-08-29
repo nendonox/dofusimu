@@ -3,6 +3,7 @@ $(document).ready(function(){
 
     builderEvent();
     equipmentEvent();
+    setEvent();
     characterEvent();
 });
 

@@ -4,6 +4,19 @@ function equipmentEvent(){
         displayEquipments();
         displayTotal();
     });
+
+    $(".equipment_modify").click(function(){
+        var select = $(this).closest("tr").find(".equipment_select");
+        var id = select.val();
+
+        if(id != "default"){
+            setBuilderItemInfo(equipments[id]);
+            delete equipments[id];
+            select.children(':selected').remove();
+            select.val(0);
+            displayTotal();
+        }
+    });
 }
 
 // 装備セレクトのオプションをデータと対応させる

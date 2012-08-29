@@ -1,5 +1,6 @@
 function displayTotal(){
     calcTotal();
+    displaySetSelect();
 
     for(var key in total_status){
         $("#total_" + key).html(total_status[key]);
@@ -69,7 +70,7 @@ function addSetBonusStatus(){
 
 // 最終ボーナスを追加
 function addFinalBonusStatus(){
-    total_status["Prospecting"] += eval(total_status["Chance"])/10;
+    total_status["Prospecting"] += Math.floor(eval(total_status["Chance"])/10);
 
     var init = 0;
     init += eval(total_status["Strength"]);

@@ -20,7 +20,9 @@ function initHTML(){
     $("#column_left").append(getHTMLforTotal());
     $("#column_left").append(getHTMLforCharacter());
     $("#column_center").append(getHTMLforEquipment());
+    $("#column_center").append(getHTMLforSet());
     $("#column_right").append(getHTMLforBuilder());
+    $("#column_right").append(getHTMLforFile());
 }
 
 function getHTMLforBuilder(){ 
@@ -152,9 +154,14 @@ function getHTMLforEquipment(){
                 }else{
                     tr += getTag("td", {}, "");
                 }
+
                 var option = getTag("option", {"value": "default"}, "なし");
                 var select = getTag("select", {"key": data, "class": "equipment_select"}, option);
                 tr += getTag("td", {}, select);
+
+                var button = getTag("input", {"class": "equipment_modify", "type": "button", "value": "編集"}, "");
+                tr += getTag("td", {}, button);
+                
                 trs += getTag("tr", {}, tr);
             }
         });
@@ -165,13 +172,36 @@ function getHTMLforEquipment(){
         return getTag("div", {"class": "b3"}, title + table);
     }
 
+    var title = getTag("h2", {}, "装備関連");
+    return getTag("div", {"id": "equipment"}, title + geq());
+}
+
+function getHTMLforSet(){
     var gset = function(){
-        var title = getTag("h3", {}, "適用されているセットボーナス");
-        return getTag("div", {"class": "b3"}, title);
+        var option = getTag("option", {"value": "default"}, "なし");
+        var select = getTag("select", {"id": "set_select"}, option);
+
+        var nume = getTag("span", {"id": "set_nume"}, "*");
+        var deno = getTag("span", {"id": "set_deno"}, "*");
+
+        var setsel = getTag("div", {"class": "b4"}, "セットを選択" + select + nume + "/" + deno);
+
+        var title = getTag("h3", {}, "適用されているセット一覧");
+        return getTag("div", {"class": "b3"}, title + setsel);
     }
 
-    var title = getTag("h2", {}, "装備関連");
-    return getTag("div", {"id": "equipment"}, title + geq() + gset());
+    var gbonus = function(){
+        var scroll = function(){
+            var table = getTag("table", {"id": "set_bonus"}, "<tr><td>ここにセットボーナスが表示されます</td></tr>");
+            return getTag("div", {"class": "scroll"}, table);
+        }
+
+        var title = getTag("h3", {}, "セットボーナス");
+        return getTag("div", {"class": "b3"}, title + scroll());
+    }
+
+    var title = getTag("h2", {}, "セット関連");
+    return getTag("div", {"id": "set"}, title + gset() + gbonus());
 }
 
 function getHTMLforTotal(){
@@ -339,6 +369,29 @@ function getHTMLforCharacter(){
 
     var title = getTag("h2", {}, "キャラクター");
     return getTag("div", {"id": "character"}, title + gbasic() + gstat());
+}
+
+function getHTMLforFile(){
+    var gout = function(){
+        var button = getTag("input", {"type": "button", "value": "出力する"}, "");
+        var input = getTag("input", {"type": "text"}, "");
+        var it = getTag("div", {"class": "b4"}, button + input);
+      
+        var title = getTag("h3", {}, "保存");
+        return getTag("div", {"class": "b3"}, title + it);
+    }
+
+    var gin = function(){
+        var button = getTag("input", {"type": "button", "value": "読み込む"}, "");
+        var input = getTag("input", {"type": "text"}, "");
+        var it = getTag("div", {"class": "b4"}, button + input);
+      
+        var title = getTag("h3", {}, "読み込み");
+        return getTag("div", {"class": "b3"}, title + it);
+    }
+
+    var title = getTag("h2", {}, "保存と読み込み");
+    return getTag("div", {"id": "file"}, title + gout() + gin());
 }
 
 function setBuilderTypeSelect(){

@@ -1,4 +1,14 @@
+function displaySets(){
+    for(var key in sets){
+        var bonus = set_status_json[key][sets[key] - 1];
+        
+    }
+}
+
+// 装備からセット情報を計算
 function calcSets(){
+    sets = {};
+
     for(var key in equipments){
         var item = equipments[key];
 

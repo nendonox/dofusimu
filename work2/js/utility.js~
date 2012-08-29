@@ -1,6 +1,6 @@
 // タグ生成関数
 function getTag(tagName, dict, html){
-    tag = "<" + tagName + " ";
+    var tag = "<" + tagName + " ";
     for(var attr in dict){
 	tag += attr + "=\"" + dict[attr] + "\" ";
     }
@@ -23,7 +23,7 @@ function getItemData(name){
     for(var i in equipment_type_list){
 	    for(var n in equipment_json[equipment_type_list[i]]){
 	        if(name == n){
-		        item = equipment_json[equipment_type_list[i]][name];
+		        var item = equipment_json[equipment_type_list[i]][name];
 		        item["Type"] = equipment_type_list[i];
 		        item["Name"] = name;
 		        return item;
@@ -40,20 +40,20 @@ function getMaxCorrespondsToType(type){
 
 // 数値幅に対応したオプションを生成
 function getOptionsCorrespondsToValues(min, max, value){
-    options = "";
+    var options = "";
     for(var i=min ; i<eval(max) + 1 ; i++){
-	if(i == value){
-	    options = getSelectedOption(i, i) + options;
-	}else{
-	    options = getOption(i, i) + options;
-	}
+	    if(i == value){
+	        options = getSelectedOption(i, i) + options;
+	    }else{
+	        options = getOption(i, i) + options;
+	    }
     }
     return options;
 }
 
 // リストからオプションを生成
 function getOptionsFromList(list){
-    options = "";
+    var options = "";
     list.forEach(function(data){
         options += getTag("option", {"value": data}, data);
     });
@@ -117,7 +117,7 @@ function getTextWithClass(cl, size, value){
 	+ "\" value=\"" + value + "\"></input>";
 }
 function getTagWithDict(tagName, dict, html){
-    tag = "<" + tagName + " ";
+    var tag = "<" + tagName + " ";
     for(var attr in dict){
 	tag += attr + "=\"" + dict[attr] + "\" ";
     }

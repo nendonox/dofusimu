@@ -9,15 +9,6 @@ function inventorySelectChangeEvent(){
     });
 }
 
-// インベントリ内にあるすべてのアイテムのid(key)をリスト化し返す
-function getInventoryIdList(){
-    var list = [];
-    for(var id in inventory){
-        list.push(id);
-    }
-    return list;
-}
-
 // インベントリ内のアイテムを選択カテゴリに応じて表示
 function displayInventory(){
     var divs = "";

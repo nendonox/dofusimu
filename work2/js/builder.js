@@ -86,23 +86,28 @@ function isMatchCondition(status){
 }
 
 
-//  検索欄の名前が変更された時のイベント
+// 検索欄の名前が変更された時のイベント
 function builderNameChangeEvent(){
     $("#builder_name_select").change(function(){
         var name = $(this).val();
         var itemData = getItemData(name);
 
         if(itemData != null){
-            $("#builder_summary_base").html(name);
-            $("#builder_summary_type").html(id_display_dict[itemData["Type"]]);
-            $("#builder_summary_type").attr("key", itemData["Type"]);         
-            $("#builder_summary_level").html(itemData["Level"]);
-            $("#builder_summary_name").val(name);
-
-            emptyThenAppend("builder_status", getBuilderStatusTags(itemData));
-            setBuilderForgeType();
+            setBuilderItemInfo(itemData);
         }
     });
+}
+
+// 
+function setBuilderItemInfo(itemData){
+    $("#builder_summary_base").html(itemData["Key"]);
+    $("#builder_summary_type").html(id_display_dict[itemData["Type"]]);
+    $("#builder_summary_type").attr("key", itemData["Type"]);         
+    $("#builder_summary_level").html(itemData["Level"]);
+    $("#builder_summary_name").val(itemData["Name"]);
+    
+    emptyThenAppend("builder_status", getBuilderStatusTags(itemData));
+    setBuilderForgeType();
 }
 
 // id="builder_status"に入るタグを返す
@@ -111,9 +116,16 @@ function getBuilderStatusTags(itemData){
     
     for(var type in itemData["Status"]){
         var value = itemData["Status"][type]["max"];
-        var min = Math.min(itemData["Status"][type]["min"], 0);
-        var max = Math.max(value, getMaxCorrespondsToType(type));
-        
+        var min, max;
+        if(value == undefined){
+            value = itemData["Status"][type];
+            min = Math.min(value, 0);
+            max = Math.max(value, getMaxCorrespondsToType(type));
+        }else{
+            min = Math.min(itemData["Status"][type]["min"], 0);
+            max = Math.max(value, getMaxCorrespondsToType(type));
+        }
+
         tags += getBuilderStatusTr(type, min, max, value);
     }
 
@@ -180,7 +192,7 @@ function builderCreateEvent(){
                 item["Status"][key] = status_dict[key];
             }
 
-            var id = getNotOverlappedId(getValidId(item["Key"]), getInventoryIdList());
+            var id = getNotOverlappedId(getValidId(item["Key"]), getItemsIdList());
             item["Id"] = id;
 
             inventory[id] = item;
@@ -188,6 +200,18 @@ function builderCreateEvent(){
             appendOptionForEquipment(item["Type"], item["Id"], item["Name"]);
         }        
     });
+}
+
+// 全アイテムのid(key)をリスト化し返す
+function getItemsIdList(){
+    var list = [];
+    for(var id in inventory){
+        list.push(id);
+    }
+    for(var id in equipments){
+        list.push(id);
+    }
+    return list;
 }
 
 // 該当タイプの装備セレクトそれぞれにオプションを追加
