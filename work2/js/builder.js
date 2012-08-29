@@ -200,6 +200,48 @@ function builderCreateEvent(){
             appendOptionForEquipment(item["Type"], item["Id"], item["Name"]);
         }        
     });
+
+    $("#builder_create_equip").click(function(){
+        if(canCreate()){
+            var item = {"Status": {}};
+            
+            var summary_dict = getBuilderSummaryDict();
+            for(var key in summary_dict){
+                item[key] = summary_dict[key];
+            }
+
+            var status_dict = getBuilderStatusDict();
+            for(var key in status_dict){
+                item["Status"][key] = status_dict[key];
+            }
+
+            var id = getNotOverlappedId(getValidId(item["Key"]), getItemsIdList());
+            item["Id"] = id;
+
+	    var select = getSelectOfDefaultForEq(item["Type"]);
+	    var value = $(select).val();
+	    
+	    removeInventoryEquipments();
+
+	    equipments[id] = item;
+
+	    if(value == "default"){
+
+	    }else{
+		inventory[value] = equipments[value];
+
+		delete equipments[value];
+		$(select).children(':selected').remove();
+	    }
+
+	    select.append(getTag("option", {"value": id, "selected": "true"}, item["Name"]));
+
+	    addInventoryEquipments();	   
+
+	    displayTotal();
+        }        
+    });
+
 }
 
 // 全アイテムのid(key)をリスト化し返す
@@ -237,7 +279,7 @@ function getBuilderSummaryDict(){
     var dict = {};
 
     dict["Type"] = $("#builder_summary_type").attr("key");
-    dict["Name"] = $("#builder_summary_name").val();
+    dict["Name"] = escape_html_tag($("#builder_summary_name").val());
     dict["Key"] = $("#builder_summary_base").html();
     dict["Level"] = $("#builder_summary_level").html();
     

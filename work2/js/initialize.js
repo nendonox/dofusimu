@@ -44,21 +44,47 @@ function getHTMLforBuilder(){
         }
 
         var cond = function(index){
-            var options = getTag("option", {"value": "default"}, "ステータス");
+		
+	    var options = getTag("option", {"value": "default"}, "ステータス");
+	    
+	    for(var i in status_power_dict){
+		options += getTag("option", {"value": i}, id_display_dict[i]);
+	    }
+	    
+	    var select = getTag("select", {"id": "builder_condition_select_" + index}, options);
+	    var input = getTag("input", {"id": "builder_condition_value_" + index, "size": "4", "type": "text"}, "");
+	    
+	    return getTag("div", {"class": "b4"}, select + "が" + input + "以上");
+        }
 
-            for(var i in status_power_dict){
-                options += getTag("option", {"value": i}, id_display_dict[i]);
+	/*
+
+		var tr = "";
+
+		var options = getTag("option", {"value": "default"}, "ステータス");
+
+		for(var j in status_power_dict){
+		    options += getTag("option", {"value": j}, id_display_dict[j]);
+		}
+
+		var select = getTag("select", {"id": "builder_condition_select_" + i}, options);
+		tr += getTag("td", {}, select);
+		tr += getTag("td", {}, "が");
+
+		var input = getTag("input", {"id": "builder_condition_value_" + i, "size": "4", "type": "text"}, "");
+		tr += getTag("td", {}, input);
+		tr += getTag("td", {}, "以上");
+
+		trs += getTag("tr", {}, tr);
             }
 
-            var select = getTag("select", {"id": "builder_condition_select_" + index}, options);
-            var input = getTag("input", {"id": "builder_condition_value_" + index, "size": "4", "type": "text"}, "");
-            
-            return getTag("div", {"class": "b4"}, select + "が" + input + "以上");
-        }
+            return getTag("table", {}, trs);
+
+	 */
         
         var title = getTag("h3", {}, "検索条件");
-   
-        return getTag("div", {"class": "b3"}, title + cate() + level() + cond("0") + cond("1") + cond("2"));
+	
+	return getTag("div", {"class": "b3"}, title + cate() + level() + cond(0) + cond(1) + cond(2));
     }
 
     var gresult = function(){
@@ -128,15 +154,16 @@ function getHTMLforBuilder(){
     var gcreate = function(){
         var create = function(){
             var button = getTag("input", {"id": "builder_create", "type": "button", "value": "作成"}, "");
+	    var buttoneq = getTag("input", {"id": "builder_create_equip", "type": "button", "value": "作成して装備"}, "");
  
-            return getTag("div", {"class": "b4"}, "このアイテムを" + button + "する");
+            return getTag("div", {"class": "b4"}, "このアイテムを" + button + buttoneq + "する");
         }        
         
         var title = getTag("h3", {}, "作成");
         return getTag("div", {"class": "b3"}, title + create());
     }
 
-    title = getTag("h2", {}, "アイテム製造器");    
+    var title = getTag("h2", {}, "アイテム製造器");    
 
     return getTag("div", {"id": "builder"}, title + gcond() + gresult() + gabst() + gstat() + gforge() + gcreate());
 }
@@ -316,7 +343,7 @@ function getHTMLforCharacter(){
 
             var levsel = getTag("select", {"id": "character_level_select"}, getOptionsCorrespondsToValues(1, 200, 199));
 
-            return getTag("div", {"class": "b4"}, "クラス" + clasel + "/ レベル" + levsel)
+            return getTag("div", {"class": "b4"}, "クラス" + clasel + "/ レベル" + levsel);
         }
         
         var title = getTag("h3", {}, "基本情報");
@@ -364,7 +391,7 @@ function getHTMLforCharacter(){
         
         var title = getTag("h3", {}, "ステータス");
 
-        return getTag("b3", {}, title + ggtable() + ggrest());
+        return getTag("div", {"class": "b3"}, title + ggtable() + ggrest());
     }
 
     var title = getTag("h2", {}, "キャラクター");

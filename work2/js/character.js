@@ -47,8 +47,9 @@ function characterLevelChangeEvent(){
 function getVariation(sign){
     var value = 1;
     if(sign == "-") value = -1;
-    if(event.shiftKey) value *= 10;
-    if(event.ctrlKey) value *= 10;
+    if(shifted) value *= 10;
+    if(ctrled) value *= 10;
+
     return value;
 }
 

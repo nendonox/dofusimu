@@ -7,6 +7,9 @@ var equipments = {};
 var sets = {};
 var total_status = {};
 
+var shifted = false;
+var ctrled = false;
+
 for(var key in status_power_dict){
 	total_status[key] = "0"
 }

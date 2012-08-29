@@ -7,3 +7,7 @@ $(document).ready(function(){
     characterEvent();
 });
 
+$(document).bind('keyup keydown', function(e){
+    shifted = e.shiftKey;
+    ctrled = e.ctrlKey;
+});

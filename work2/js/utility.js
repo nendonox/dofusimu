@@ -1,3 +1,16 @@
+// サニタイズ
+function escape_html_tag(string) {
+    return string.replace(/[&<>]/g, function(match) {
+	    return {
+		'&' : '',
+		    '<' : '',
+		    '>' : '',
+		    '"' : '',
+		    "'" : ''
+		    }[match];
+	});
+}
+
 // タグ生成関数
 function getTag(tagName, dict, html){
     var tag = "<" + tagName + " ";

@@ -1,6 +1,6 @@
-@hue: 80;
+@hue: 70;
 @main_color: hsl(@hue, 20%, 20%);
-@base_color: hsl(@hue, 20%, 80%);
+@base_color: hsl(@hue, 20%, 85%);
 @accent_color: spin(@main_color, 180);
 
 @font-face{
@@ -22,16 +22,12 @@ select {
     font-size: 12px;
     border: 1px solid lighten(@main_color, 30%);
     margin: 0px 6px 0px 6px;
-    height: 16px;
-    vertical-align: 3px;
 }
 
 input {
     font-size: 12px;
     border: 1px solid lighten(@main_color, 30%);
     margin: 0px 6px 0px 6px;
-    height: 16px;
-    vertical-align: 1px;
 }
 
 .flushleft {
@@ -39,7 +35,7 @@ input {
 }
 
 .equipment_select {
-    width: 195px;
+    width: 190px;
 }
 
 .equipment_modify {
@@ -61,7 +57,6 @@ th {
     background: darken(@base_color, 10%);
 }
 
-
 #main {
     background: @base_color;
     width: 960px;
@@ -77,7 +72,7 @@ h1 {
 h2 {
     font-size: 14px;
     background: lighten(@accent_color, 10%);
-    color: @base_color;
+    color: lighten(@base_color, 10%);
     padding: 3px 2px 3px 4px;
     margin: 0px 0px 10px 0px;
     border: 3px double;
@@ -126,7 +121,7 @@ h3 {
 }
 
 .b4 {
-    margin-left: 4px;
+    margin: 0px 0px 2px 4px;
     font-size: 12px;
 }
 
