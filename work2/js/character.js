@@ -140,16 +140,18 @@ function calcCharacterStatusTotal(type){
 // 指定クラスの指定ステータス種の指定値から総合ポイントを1上げるためのポイントを返す
 function getNecessary(cl, type, value){
     if(cl == "default") return 1;
-    if(cl == "Sacrier" && type == "Vitality") return 0.5;
+    if(type == "Vitality" && cl == "Sacrier") return 0.5;
 
     var list = characteristic_dict[cl][type];
     var necessary = 0;
-    for(var i in list){
+
+    for(var i=0 ; i<list.length ; i++){
         if(eval(value) < eval(list[i])){
             break;
         }else{
             necessary ++;
         }
     }
+
     return necessary;
 }
