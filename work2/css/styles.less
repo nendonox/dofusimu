@@ -3,13 +3,8 @@
 @base_color: hsl(@hue, 20%, 85%);
 @accent_color: spin(@main_color, 180);
 
-@font-face{
-    font-family: "migmix-1p-regular";
-    src: url("migmix-1p-regular.ttf") format("truetype");
-}
-
 * {
-    font-family: "migmix-1p-regular";
+    font-family:'ヒラギノ角ゴ Pro W3','Osaka','メイリオ','Meiryo',sans-serif;
 }
 
 html, body {
@@ -65,7 +60,7 @@ th {
 
 h1 {
     font-size: 48px;
-    padding: 8px;
+    padding: 8px 8px 0px 16px;
     margin: 0px;
 }
 
@@ -153,4 +148,28 @@ h3 {
     overflow-y:scroll;
     height:80px;
     background: darken(@base_color, 10%);
+}
+
+#builder_summary_name {
+    width: 170px;
+}
+
+#file_input_text {
+    width: 190px;
+}
+
+#file_output_text {
+    width: 190px;
+}
+
+#builder_condition_value_0 {
+    width: 32px;
+}
+
+#builder_condition_value_1 {
+    width: 32px;
+}
+
+#builder_condition_value_2 {
+    width: 32px;
 }

@@ -25,6 +25,8 @@ function characterClassChangeEvent(){
             calcCharacterStatusTotal(data);
             displayCharacterStatus(data);
         });
+
+        displayTotal();
     });
 }
 
@@ -45,8 +47,9 @@ function characterLevelChangeEvent(){
 function getVariation(sign){
     var value = 1;
     if(sign == "-") value = -1;
-    if(event.shiftKey) value *= 10;
-    if(event.ctrlKey) value *= 10;
+    if(shifted) value *= 10;
+    if(ctrled) value *= 10;
+
     return value;
 }
 
@@ -102,14 +105,9 @@ function getCharacterStatusRow(type){
 
 // 指定タイプの表示を更新する
 function displayCharacterStatus(type){
-    var row = getCharacterStatusRow(type);
-    var scroll = $(row.find("#character_status_scroll")[0]);
-    var point = $(row.find("#character_status_point")[0]);
-    var total = $(row.find("#character_status_total")[0]);
-
-    scroll.html(character["Status"][type]["Scroll"]);
-    point.html(character["Status"][type]["Point"]);
-    total.html(character["Status"][type]["Total"]);
+    $("#character_scroll_" + type).html(character["Status"][type]["Scroll"]);
+    $("#character_point_" + type).html(character["Status"][type]["Point"]);
+    $("#character_total_" + type).html(character["Status"][type]["Total"]);
 }
 
 // 余剰ポイントの表示を更新

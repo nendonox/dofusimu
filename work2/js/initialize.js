@@ -52,7 +52,7 @@ function getHTMLforBuilder(){
 	    }
 	    
 	    var select = getTag("select", {"id": "builder_condition_select_" + index}, options);
-	    var input = getTag("input", {"id": "builder_condition_value_" + index, "size": "4", "type": "text"}, "");
+	    var input = getTag("input", {"id": "builder_condition_value_" + index, "type": "text"}, "");
 	    
 	    return getTag("div", {"class": "b4"}, select + "が" + input + "以上");
         }
@@ -117,7 +117,7 @@ function getHTMLforBuilder(){
         }
 
         var name = function(){
-            var input = getTag("input", {"id": "builder_summary_name", "size": "25", "type": "text"}, "");
+            var input = getTag("input", {"id": "builder_summary_name", "type": "text"}, "");
             return getTag("div", {"class": "b4"}, "名前を" + input + "にする");
         }
 
@@ -401,7 +401,7 @@ function getHTMLforCharacter(){
 function getHTMLforFile(){
     var gout = function(){
         var button = getTag("input", {"type": "button", "value": "出力する"}, "");
-        var input = getTag("input", {"type": "text"}, "");
+        var input = getTag("input", {"type": "text", "id": "file_output_text"}, "");
         var it = getTag("div", {"class": "b4"}, button + input);
       
         var title = getTag("h3", {}, "保存");
@@ -410,7 +410,7 @@ function getHTMLforFile(){
 
     var gin = function(){
         var button = getTag("input", {"type": "button", "value": "読み込む"}, "");
-        var input = getTag("input", {"type": "text"}, "");
+        var input = getTag("input", {"type": "text", "id": "file_input_text"}, "");
         var it = getTag("div", {"class": "b4"}, button + input);
       
         var title = getTag("h3", {}, "読み込み");
