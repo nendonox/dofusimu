@@ -1,0 +1,143 @@
+
+builder.js,847
+function builderEvent(1,0
+function getConditionDiv(8,135
+function getConditionTypeSelect(15,278
+function getConditionValueInput(23,579
+function builderSearchEvent(28,745
+function getEquipmentNameListForConditions(49,1486
+function isMatchLevelCondition(63,1835
+function isMatchCondition(71,2086
+function builderNameChangeEvent(92,2592
+function setBuilderItemInfo(104,2850
+function getBuilderStatusTags(116,3350
+function getBuilderStatusTr(138,4034
+function builderForgeEvent(148,4379
+function setBuilderForgeType(161,4801
+function getExcludingStatusList(171,5225
+function builderCreateEvent(182,5551
+function getItemsIdList(250,7400
+function appendOptionForEquipment(262,7664
+function canCreate(271,7958
+function getBuilderSummaryDict(279,8146
+function getBuilderStatusDict(292,8577
+function getBuilderStatusTypeList(303,8869
+
+character.js,477
+function characterEvent(1,0
+function characterStatusShiftEvent(8,217
+function characterClassChangeEvent(21,630
+function characterLevelChangeEvent(34,1022
+function getVariation(47,1432
+function characterStatusShift(61,1868
+function getStatusResultVariation(75,2432
+function getCharacterStatusRow(100,3049
+function displayCharacterStatus(111,3313
+function displayCharacterRemainPoint(118,3625
+function calcCharacterStatusTotal(123,3759
+function getNecessary(145,4351
+
+constants.js,220
+var character_status_list 1,0
+var class_list 7,129
+var equipment_type_list 14,326
+var max_number_of_equipment_dict 21,479
+var characteristic_dict 35,724
+var id_display_dict 151,5287
+var status_power_dict 222,7760
+
+equipment.js,262
+function equipmentEvent(1,0
+function getSelectOfDefaultForEq(23,643
+function displayEquipments(41,1077
+function addInventoryEquipments(47,1249
+function removeInventoryEquipments(58,1557
+function updateEquipments(73,2022
+function releaseEquipments(86,2357
+
+globals.js,216
+var equipment_json 1,0
+var set_dict_json 2,27
+var set_status_json 3,53
+var inventory 5,82
+var equipments 6,102
+var sets 7,123
+var total_status 8,138
+var metaed 10,162
+var ctrled 11,182
+var character 17,266
+
+import.js,22
+function include(1,0
+
+initialize.js,594
+function initialize(1,0
+function initHTML(19,370
+function getHTMLforBuilder(28,701
+function getHTMLforEquipment(171,6175
+function getHTMLforSet(206,7442
+function getHTMLforTotal(234,8539
+function getHTMLforCharacter(334,12889
+function getHTMLforFile(408,16197
+function setBuilderTypeSelect(431,17126
+function setBuilderLevelCondition(439,17407
+function setInventorySelect(444,17606
+function setEquipmentTags(454,17930
+function setCharacterClassSelect(471,18417
+function setCharacterLevelSelect(481,18775
+function setCharacterStatusTags(488,18995
+function setTotalTags(508,20280
+
+inventory.js,137
+function inventoryEvent(1,0
+function inventorySelectChangeEvent(6,107
+function displayInventory(13,310
+function isInInventory(26,726
+
+item.js,189
+function itemEvent(1,0
+function itemClickEvent(6,75
+function getInfomationStatusTag(24,507
+function itemDoubleClickEvent(36,811
+function itemEquip(57,1259
+function itemRemove(68,1461
+
+set.js,114
+function setEvent(1,0
+function displaySetInfo(7,98
+function displaySetSelect(38,946
+function calcSets(55,1297
+
+total.js,229
+function displayTotal(1,0
+function calcTotal(10,162
+function initTotal(20,362
+function addCharacterStatus(33,641
+function addEquipmentsStatus(51,1080
+function addSetBonusStatus(61,1332
+function addFinalBonusStatus(72,1588
+
+utility.js,702
+function escape_html_tag(2,19
+function getTag(15,243
+function emptyThenAppend(24,466
+function getValidId(30,602
+function getItemData(35,720
+function getMaxCorrespondsToType(51,1187
+function getOptionsCorrespondsToValues(56,1322
+function getOptionsFromList(69,1657
+function getNotOverlappedId(78,1898
+function getOption(93,2156
+function getSelectedOption(96,2259
+function getSelect(99,2379
+function getSelectWithClass(102,2473
+function getDiv(105,2579
+function getDivWithId(108,2646
+function getDivWithClass(111,2737
+function getTagWithClass(114,2834
+function getInput(117,2964
+function getInputWithValue(122,3103
+function getTextWithClass(128,3284
+function getTagWithDict(133,3444
+
+main.js,0

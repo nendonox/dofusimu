@@ -46,9 +46,13 @@ function characterLevelChangeEvent(){
 // キー入力情報と符号から変動数値を算出し返す
 function getVariation(sign){
     var value = 1;
+
+    var ctrl_checked = $("#character_check_ctrl").attr('checked') != undefined;
+    var alt_checked = $("#character_check_alt").attr('checked') != undefined;
+
     if(sign == "-") value = -1;
-    if(shifted) value *= 10;
-    if(ctrled) value *= 10;
+    if(alted || alt_checked) value *= 10;
+    if(ctrled || ctrl_checked) value *= 10;
 
     return value;
 }

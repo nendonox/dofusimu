@@ -46,9 +46,13 @@ function characterLevelChangeEvent(){
 // キー入力情報と符号から変動数値を算出し返す
 function getVariation(sign){
     var value = 1;
+
+    var ctrl_checked = $("#character_check_ctrl").attr('checked') != undefined;
+    var meta_checked = $("#character_check_meta").attr('checked') != undefined;
+
     if(sign == "-") value = -1;
-    if(shifted) value *= 10;
-    if(ctrled) value *= 10;
+    if(metaed || meta_checked) value *= 10;
+    if(ctrled || ctrl_checked) value *= 10;
 
     return value;
 }
@@ -140,16 +144,18 @@ function calcCharacterStatusTotal(type){
 // 指定クラスの指定ステータス種の指定値から総合ポイントを1上げるためのポイントを返す
 function getNecessary(cl, type, value){
     if(cl == "default") return 1;
-    if(cl == "Sacrier" && type == "Vitality") return 0.5;
+    if(type == "Vitality" && cl == "Sacrier") return 0.5;
 
     var list = characteristic_dict[cl][type];
     var necessary = 0;
-    for(var i in list){
+
+    for(var i=0 ; i<list.length ; i++){
         if(eval(value) < eval(list[i])){
             break;
         }else{
             necessary ++;
         }
     }
+
     return necessary;
 }

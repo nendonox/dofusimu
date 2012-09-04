@@ -8,6 +8,6 @@ $(document).ready(function(){
 });
 
 $(document).bind('keyup keydown', function(e){
-    shifted = e.shiftKey;
+    alted = e.altKey;
     ctrled = e.ctrlKey;
 });

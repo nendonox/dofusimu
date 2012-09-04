@@ -2,8 +2,12 @@ $(document).ready(function(){
     initialize();
 
     builderEvent();
-    inventoryEvent();
-    itemEvent();
+    equipmentEvent();
+    setEvent();
     characterEvent();
 });
 
+$(document).bind('keyup keydown', function(e){
+    metaed = e.altKey;
+    ctrled = e.ctrlKey;
+});

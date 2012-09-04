@@ -355,8 +355,8 @@ function getHTMLforCharacter(){
         var ggtable = function(){
             var tr = "";
             tr += getTag("td", {}, "*");
-            tr += getTag("th", {}, "使用スクロール値");
-            tr += getTag("th", {}, "使用ポイント値");
+            tr += getTag("th", {"colspan": "3"}, "使用スクロール値");
+            tr += getTag("th", {"colspan": "3"}, "使用ポイント値");
             tr += getTag("th", {}, "総合値");
             
             var trs = getTag("tr", {}, tr);
@@ -366,13 +366,13 @@ function getHTMLforCharacter(){
 
                 var scr_minus = getTag("input", {"class": "character_status_shift", "key": data, "key2": "Scroll", "type": "button", "value": "-"}, "");
                 var scr_plus = getTag("input", {"class": "character_status_shift", "key": data, "key2": "Scroll", "type": "button", "value": "+"}, "");
-                var scr = getTag("span", {"id": "character_scroll_" + data}, "0");
-                tr += getTag("td", {}, scr_minus + scr + scr_plus);
+                var scr = getTag("td", {"id": "character_scroll_" + data}, "0");
+                tr += getTag("td", {}, scr_minus)  + scr + getTag("td", {}, scr_plus);
 
                 var pt_minus = getTag("input", {"class": "character_status_shift", "key": data, "key2": "Point", "type": "button", "value": "-"}, "");
                 var pt_plus = getTag("input", {"class": "character_status_shift", "key": data, "key2": "Point", "type": "button", "value": "+"}, "");
-                var pt = getTag("span", {"id": "character_point_" + data}, "0");
-                tr += getTag("td", {}, pt_minus + pt + pt_plus);
+                var pt = getTag("td", {"id": "character_point_" + data}, "0");
+                tr += getTag("td", {}, pt_minus)  + pt + getTag("td", {}, pt_plus);
 
                 var total = getTag("span", {}, "0");
                 tr += getTag("td", {"id": "character_total_" + data}, total);
@@ -383,15 +383,22 @@ function getHTMLforCharacter(){
             return getTag("table", {}, trs);
         }
 
-        var ggrest = function(){
+        var ggrest = function(){           
             var rest = getTag("span", {"id": "character_remain_point"}, "990");
-            
+
             return getTag("div", {"class": "b4"}, "残りポイントは " + rest + " です");
         }
+
+	var ggchecks = function(){
+	    var ctrl = getTag("input", {"type": "checkbox", "id": "character_check_ctrl"}, "");
+	    var alt = getTag("input", {"type": "checkbox", "id": "character_check_alt"}, "");
+
+            return getTag("div", {"class": "b4"}, "変動量増加用チェックボックス : " + "Ctrl" + ctrl + "Alt" + alt);
+	}
         
         var title = getTag("h3", {}, "ステータス");
 
-        return getTag("div", {"class": "b3"}, title + ggtable() + ggrest());
+        return getTag("div", {"class": "b3"}, title + ggchecks() + ggtable() + ggrest());
     }
 
     var title = getTag("h2", {}, "キャラクター");

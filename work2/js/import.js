@@ -3,8 +3,8 @@ function include(fileName){
 		   + fileName + '" charset="utf-8"></script>\n');    
 }
 
-include("js/less-1.3.0.min.js")
-include("js/jquery-1.7.2.min.js");
+include("js/lib/less-1.3.0.min.js")
+include("js/lib/jquery-1.7.2.min.js");
 include("js/constants.js")
 include("js/globals.js");
 include("js/utility.js");
