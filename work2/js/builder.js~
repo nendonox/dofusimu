@@ -1,5 +1,4 @@
 function builderEvent(){
-    builderConditionAddEvent();
     builderSearchEvent();
     builderNameChangeEvent();
     builderForgeEvent();
@@ -25,15 +24,23 @@ function getConditionValueInput(){
     return getInput("builder_condition_value", "text", "4");
 }
 
-//// 検索ボタンを押したときのイベントを登録する
+// 検索ボタンを押したときのイベントを登録する
 function builderSearchEvent(){
     $("#builder_search").click(function(){
         var type = $("#builder_type_select").val();
 
         var options = getTag("option", {"value": "default"}, "検索結果");
-        options += getOptionsFromList(
-            getEquipmentNameListForConditions(equipment_json[type]));
-        
+
+        if(type == "all"){
+            equipment_type_list.forEach(function(type){
+                options += getOptionsFromList(
+                    getEquipmentNameListForConditions(equipment_json[type]));                
+            });
+        } else {
+            options += getOptionsFromList(
+                getEquipmentNameListForConditions(equipment_json[type]));
+        }
+
         emptyThenAppend("builder_name_select", options);
     });
 }
@@ -62,44 +69,45 @@ function isMatchLevelCondition(level){
 
 // ステータス条件に合うかどうかを調べる
 function isMatchCondition(status){
-    var conditions = $("#builder_conditions").children("div");
     var flag = true;
-    conditions.each(function(){
-        var condition_type = $(this).children("#builder_condition_options").val();
-        var condition_value = $(this).children("#builder_condition_value").val();
+
+    for(var i=0 ; i<3 ; i++){
+        var condition_type = $("#builder_condition_select_" + i).val();
+        var condition_value = $("#builder_condition_value_" + i).val();
 
         var target = status[condition_type] == undefined ? 
             "0" : status[condition_type]["max"]
         if(eval(target) < eval(condition_value)){
             flag = false;
         }
-    });
+    }
+
     return flag;
 }
 
 
-////  検索欄の名前が変更された時のイベント
+// 検索欄の名前が変更された時のイベント
 function builderNameChangeEvent(){
     $("#builder_name_select").change(function(){
         var name = $(this).val();
         var itemData = getItemData(name);
 
         if(itemData != null){
-	        emptyThenAppend("builder_summary", getBuilderSummaryTags(itemData));
-            emptyThenAppend("builder_status", getBuilderStatusTags(itemData));
-            setBuilderForgeType();
+            setBuilderItemInfo(itemData);
         }
     });
 }
 
-// id="builder_summary" に入るタグを返す
-function getBuilderSummaryTags(itemData){
-    var type = itemData["Type"];
-    var level = itemData["Level"];
-    var name = itemData["Name"];
-    return getTag("span", {}, getTag("span", {"id": "builder_summary_type", "value": type}, ""))
-        + getTag("span", {}, getTag("input", {"id": "builder_summary_name", "key": name, "type": "text", "value": name}, ""))
-	    + getTag("span", {}, getTag("span", {"class": "label"}, "Lv") + getTag("span", {"id": "builder_summary_level"}, level));
+// 
+function setBuilderItemInfo(itemData){
+    $("#builder_summary_base").html(itemData["Key"]);
+    $("#builder_summary_type").html(id_display_dict[itemData["Type"]]);
+    $("#builder_summary_type").attr("key", itemData["Type"]);         
+    $("#builder_summary_level").html(itemData["Level"]);
+    $("#builder_summary_name").val(itemData["Name"]);
+    
+    emptyThenAppend("builder_status", getBuilderStatusTags(itemData));
+    setBuilderForgeType();
 }
 
 // id="builder_status"に入るタグを返す
@@ -108,22 +116,29 @@ function getBuilderStatusTags(itemData){
     
     for(var type in itemData["Status"]){
         var value = itemData["Status"][type]["max"];
-        var min = Math.min(itemData["Status"][type]["min"], 0);
-        var max = Math.max(value, getMaxCorrespondsToType(type));
-        
-        tags += getBuilderStatusDiv(type, min, max, value);
+        var min, max;
+        if(value == undefined){
+            value = itemData["Status"][type];
+            min = Math.min(value, 0);
+            max = Math.max(value, getMaxCorrespondsToType(type));
+        }else{
+            min = Math.min(itemData["Status"][type]["min"], 0);
+            max = Math.max(value, getMaxCorrespondsToType(type));
+        }
+
+        tags += getBuilderStatusTr(type, min, max, value);
     }
 
     return tags;
 }
 
 // 引数タイプのステータス名と数値セレクトのペアを返す
-function getBuilderStatusDiv(type, min, max, value){
+function getBuilderStatusTr(type, min, max, value){
     var options = getOptionsCorrespondsToValues(min, max, value);
 
-    return getTag("div", {}, 
-                  getTag("span", {"class": "label"}, id_display_dict[type])
-                  + getTag("select", {"key": type}, options));
+    return getTag("Tr", {}, 
+                  getTag("td", {}, id_display_dict[type])
+                  + getTag("td", {}, getTag("select", {"key": type}, options)));
 }
 
 
@@ -133,7 +148,7 @@ function builderForgeEvent(){
         var type = $("#builder_forge_type").val();
         if(status_power_dict[type] != undefined){
             var max = getMaxCorrespondsToType(type);
-            $("#builder_status").append(getBuilderStatusDiv(type, 0, max, 0));
+            $("#builder_status").append(getBuilderStatusTr(type, 0, max, 0));
 
             setBuilderForgeType();
         }
@@ -142,7 +157,7 @@ function builderForgeEvent(){
 
 // 魔術可能なオプション名をセレクトへ出力
 function setBuilderForgeType(){
-    var options = getOption("default", "魔術するオプションを選択");
+    var options = getTag("option", {"value": "default"}, "ステータス");
     var excluding_list = getExcludingStatusList(getBuilderStatusTypeList());
     excluding_list.forEach(function(type){
         options += getOption(type, id_display_dict[type]);
@@ -161,7 +176,7 @@ function getExcludingStatusList(including_list){
     return excluding_list;
 }
 
-//// 作成ボタンを押したときのイベントを登録する
+// 作成ボタンを押したときのイベントを登録する
 function builderCreateEvent(){
     $("#builder_create").click(function(){
         if(canCreate()){
@@ -177,12 +192,76 @@ function builderCreateEvent(){
                 item["Status"][key] = status_dict[key];
             }
 
-            var id = getNotOverlappedId(getValidId(item["Key"]), getInventoryIdList());
+            var id = getNotOverlappedId(getValidId(item["Key"]), getItemsIdList());
             item["Id"] = id;
 
             inventory[id] = item;
-            displayInventory();            
+
+            appendOptionForEquipment(item["Type"], item["Id"], item["Name"]);
         }        
+    });
+
+    $("#builder_create_equip").click(function(){
+        if(canCreate()){
+            var item = {"Status": {}};
+            
+            var summary_dict = getBuilderSummaryDict();
+            for(var key in summary_dict){
+                item[key] = summary_dict[key];
+            }
+
+            var status_dict = getBuilderStatusDict();
+            for(var key in status_dict){
+                item["Status"][key] = status_dict[key];
+            }
+
+            var id = getNotOverlappedId(getValidId(item["Key"]), getItemsIdList());
+            item["Id"] = id;
+
+	    var select = getSelectOfDefaultForEq(item["Type"]);
+	    var value = $(select).val();
+	    
+	    removeInventoryEquipments();
+
+	    equipments[id] = item;
+
+	    if(value == "default"){
+
+	    }else{
+		inventory[value] = equipments[value];
+
+		delete equipments[value];
+		$(select).children(':selected').remove();
+	    }
+
+	    select.append(getTag("option", {"value": id, "selected": "true"}, item["Name"]));
+
+	    addInventoryEquipments();	   
+
+	    displayTotal();
+        }        
+    });
+
+}
+
+// 全アイテムのid(key)をリスト化し返す
+function getItemsIdList(){
+    var list = [];
+    for(var id in inventory){
+        list.push(id);
+    }
+    for(var id in equipments){
+        list.push(id);
+    }
+    return list;
+}
+
+// 該当タイプの装備セレクトそれぞれにオプションを追加
+function appendOptionForEquipment(type, value, html){
+    $("#equipment_table").find("select").each(function(data){
+        if($(this).attr("key") == type){
+            $(this).append(getTag("option", {"value": value}, html));
+        }
     });
 }
 
@@ -199,10 +278,10 @@ function getBuilderSummaryDict(){
     var summary = $("#builder_summary");
     var dict = {};
 
-    dict["Type"] = $(summary.find("#builder_summary_type")[0]).attr("value");
-    dict["Name"] = $(summary.find("#builder_summary_name")[0]).attr("value");
-    dict["Key"] = $(summary.find("#builder_summary_name")[0]).attr("key");
-    dict["Level"] = $(summary.find("#builder_summary_level")[0]).html();
+    dict["Type"] = $("#builder_summary_type").attr("key");
+    dict["Name"] = escape_html_tag($("#builder_summary_name").val());
+    dict["Key"] = $("#builder_summary_base").html();
+    dict["Level"] = $("#builder_summary_level").html();
     
     return dict;
 }
@@ -211,9 +290,8 @@ function getBuilderSummaryDict(){
 function getBuilderStatusDict(){
     var dict = {};
 
-    $("#builder_status").children("div").each(function(){
-        var select = $($(this).find("select")[0]);
-        dict[select.attr("key")] = select.val();
+    $("#builder_status").find("select").each(function(){
+        dict[$(this).attr("key")] = $(this).val();
     });
 
     return dict;
@@ -223,8 +301,8 @@ function getBuilderStatusDict(){
 function getBuilderStatusTypeList(){
     var list = [];
 
-    $("#builder_status").children("div").each(function(){
-        list.push($(this).attr("class"));
+    $("#builder_status").find("select").each(function(){
+        list.push($(this).attr("key"));
     });
 
     return list;
