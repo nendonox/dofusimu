@@ -2,6 +2,10 @@ function setEvent(){
     $("#set_select").change(function(){
         displaySetInfo();
     });
+
+    $("#set_full_button").click(function(){
+        setFull();
+    });
 }
 
 function displaySet(){
@@ -71,5 +75,47 @@ function calcSets(){
                 sets[name] += 1;
             }
         }
+    }
+}
+
+function setFull(){
+    var setname = $("#set_select").val();
+
+    if(setname != "default"){
+        var list = [];
+        for(var i in set_dict_json){
+            if(set_dict_json[i] == setname){
+                list.push(i);
+            }
+        }
+
+        list.forEach(function(data){
+            var item = getItemDataForEquipment(data);
+            if(item != null){
+                if(getEquippedAmount(item["Key"]) == 0){
+                    equipments[item["Id"]] = item;
+                }
+            }
+        });
+
+        equipment_type_list.forEach(function(i){
+            var amount = getEquipmentAmount(i);
+            console.log(i + "amount: " + amount);
+            var diff = max_number_of_equipment_dict[i] - amount;
+            if(diff < 0){
+                console.log("over: " + i);
+                for(var j in equipments){
+                    if(equipments[j]["Type"] == i){
+                        inventory[j] = equipments[j];
+                        delete equipments[j];
+
+                        diff++;
+                    }
+                    if(diff == 0) break;
+                }
+            }
+        });
+
+        reflesh();
     }
 }

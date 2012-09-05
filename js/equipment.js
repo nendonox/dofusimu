@@ -36,6 +36,8 @@ function displayEquipments(){
                 if($(this).val() == "default"){
                     $(this).append(eqop);
                     $(this).val(id);
+
+                    return false;
                 }
             }
         });            
@@ -113,3 +115,45 @@ function releaseEquipments(){
     equipments = {};
 }
 
+
+// 指定タイプの装備数を返す
+function getEquipmentAmount(type){
+    var count = 0;
+    for(var i in equipments){
+        if(equipments[i]["Type"] == type){
+            count ++;
+        }
+    }
+    return count;
+}
+
+// 装備データに入れられる形式でアイテムデータを取得
+function getItemDataForEquipment(name){
+    var rawitem = getItemData(name);
+    if(rawitem != null){
+        var item = {};
+        item["Type"] = rawitem["Type"];
+        item["Level"] = rawitem["Level"];
+        item["Name"] = rawitem["Name"];
+        item["Key"] = rawitem["Key"];
+        item["Id"] = getNotOverlappedId(getValidId(item["Key"]), getItemsIdList());
+        item["Status"] = {};
+        for(var i in rawitem["Status"]){
+            item["Status"][i] = rawitem["Status"][i]["max"]; 
+        }
+
+        return item;
+    }
+    return null;
+}
+
+// 同種の装備がいくつ装備されているかを返す
+function getEquippedAmount(key){
+    var count = 0;
+    for(var i in equipments){
+        if(equipments[i]["Key"] == key){
+            count++;
+        }
+    }
+    return count;
+}

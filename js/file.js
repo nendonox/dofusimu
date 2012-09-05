@@ -32,14 +32,7 @@ function fileInputEvent(){
             if(inventory == undefined) inventory = {};
             character = input["character"];
             
-            displayCharacter();
-            displayEquipments();
-            displayInventoryEquipments();
-            
-            calcTotal();
-            
-            displaySet();
-            displayTotal();        
+            reflesh();
         }
         catch (e) {
             // parseJSON()でエラーのとき

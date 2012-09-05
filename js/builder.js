@@ -72,16 +72,16 @@ function isMatchCondition(status){
     for(var i=0 ; i<3 ; i++){
         var condition_type = $("#builder_condition_select_" + i).val();
         var condition_value = $("#builder_condition_value_" + i).val();
-	
-	if(condition_type != "default"){
-	    if(status[condition_type] == undefined){
-		return false;
-	    }else{
-		if(eval(status[condition_type]["max"]) < eval(condition_value)){
-		    return false;
-		}
+	    
+	    if(condition_type != "default"){
+	        if(status[condition_type] == undefined){
+		        return false;
+	        }else{
+		        if(eval(status[condition_type]["max"]) < eval(condition_value)){
+		            return false;
+		        }
+	        }
 	    }
-	}
     }
 
     return true;
@@ -309,3 +309,4 @@ function getBuilderStatusTypeList(){
 
     return list;
 }
+

@@ -213,8 +213,11 @@ function getHTMLforSet(){
 
         var setsel = getTag("div", {"class": "b4"}, "セットを選択" + select + nume + "/" + deno);
 
+        var button = getTag("input", {"type": "button", "id": "set_full_button", "value": "フルセット"}, "");
+        var setbut = getTag("div", {"class": "b4"}, "選択されているセットを" + button + "する");
+
         var title = getTag("h3", {}, "適用されているセット一覧");
-        return getTag("div", {"class": "b3"}, title + setsel);
+        return getTag("div", {"class": "b3"}, title + setsel + setbut);
     }
 
     var gbonus = function(){
