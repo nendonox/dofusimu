@@ -1,8 +1,0 @@
-.main {
-    width: 100%;
-}
-
-.main div {
-    width: 80%;
-    margin: 0 auto;
-}
