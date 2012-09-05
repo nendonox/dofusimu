@@ -220,27 +220,27 @@ function builderCreateEvent(){
             var id = getNotOverlappedId(getValidId(item["Key"]), getItemsIdList());
             item["Id"] = id;
 
-	    var select = getSelectOfDefaultForEq(item["Type"]);
-	    var value = $(select).val();
-	    
-	    removeInventoryEquipments();
-
-	    equipments[id] = item;
-
-	    if(value == "default"){
-
-	    }else{
-		inventory[value] = equipments[value];
-
-		delete equipments[value];
-		$(select).children(':selected').remove();
-	    }
-
-	    select.append(getTag("option", {"value": id, "selected": "true"}, item["Name"]));
-
-	    addInventoryEquipments();	   
-
-	    displayTotal();
+	        var select = getSelectOfDefaultForEq(item["Type"]);
+	        var value = $(select).val();
+	        
+	        removeInventoryEquipments();
+            
+	        equipments[id] = item;
+            
+	        if(value == "default"){
+                
+	        }else{
+		        inventory[value] = equipments[value];
+                
+		        delete equipments[value];
+		        $(select).children(':selected').remove();
+	        }
+            
+	        select.append(getTag("option", {"value": id, "selected": "true"}, item["Name"]));
+            
+	        addInventoryEquipments();	   
+            
+	        displayTotal();
         }        
     });
 

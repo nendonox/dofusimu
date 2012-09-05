@@ -4,6 +4,11 @@ function setEvent(){
     });
 }
 
+function displaySet(){
+    displaySetSelect();
+    displaySetInfo();
+}
+
 function displaySetInfo(){
 
     var target = $("#set_select").val();

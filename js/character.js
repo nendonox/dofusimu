@@ -4,6 +4,26 @@ function characterEvent(){
     characterLevelChangeEvent();
 }
 
+// すべてのキャラクターデータを反映
+function displayCharacter(){
+    displayCharacterLevel();
+    displayCharacterClass();
+    for(var i in character_status_list){
+        displayCharacterStatus(character_status_list[i]);
+    }
+    displayCharacterRemainPoint();
+}
+
+// クラスをデータから反映
+function displayCharacterClass(){
+    $("#character_class_select").val(character["Class"]);
+}
+
+// レベルをデータから反映
+function displayCharacterLevel(){
+    $("#character_class_select").val(character["Level"]);
+}
+
 // キャラクターの基礎ステータスを変動させるボタンのイベント
 function characterStatusShiftEvent(){
     $(".character_status_shift").live("click", function(){

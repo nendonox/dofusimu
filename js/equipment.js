@@ -1,7 +1,7 @@
 function equipmentEvent(){
     $(".equipment_select").change(function(){
         updateEquipments();
-        displayEquipments();
+        displayInventoryEquipments();
         displayTotal();
     });
 
@@ -17,6 +17,29 @@ function equipmentEvent(){
             displayTotal();
         }
     });
+}
+
+// 装備セレクトをすべて初期化し、装備データを対応させる
+function displayEquipments(){
+    var option = getTag("option", {"value": "default"}, "なし");
+    $("#equipment_table").find("select").each(function(){
+        $(this).html(option);
+    });
+
+    for(var i in equipments){
+        var type = equipments[i]["Type"];
+        var id = equipments[i]["Id"];
+        var name = equipments[i]["Name"];
+        var eqop = getTag("option", {"value": id}, name);
+        $("#equipment_table").find("select").each(function(){
+            if($(this).attr("Key") == type){
+                if($(this).val() == "default"){
+                    $(this).append(eqop);
+                    $(this).val(id);
+                }
+            }
+        });            
+    }
 }
 
 // 装備されていない（全てされている場合一番上の）セレクトを返す
@@ -38,7 +61,7 @@ function getSelectOfDefaultForEq(type){
 }
 
 // 装備セレクト内のインベントリと対応したオプションをデータと対応させる
-function displayEquipments(){
+function displayInventoryEquipments(){
     removeInventoryEquipments();
     addInventoryEquipments();
 }
@@ -89,3 +112,4 @@ function releaseEquipments(){
     }
     equipments = {};
 }
+

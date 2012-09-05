@@ -5,6 +5,7 @@ $(document).ready(function(){
     equipmentEvent();
     setEvent();
     characterEvent();
+    fileEvent();
 });
 
 $(document).bind('keyup keydown', function(e){

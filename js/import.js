@@ -16,4 +16,5 @@ include("js/equipment.js");
 include("js/character.js");
 include("js/set.js");
 include("js/total.js");
+include("js/file.js");
 include("js/main.js");

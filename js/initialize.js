@@ -407,7 +407,7 @@ function getHTMLforCharacter(){
 
 function getHTMLforFile(){
     var gout = function(){
-        var button = getTag("input", {"type": "button", "value": "出力する"}, "");
+        var button = getTag("input", {"type": "button", "id": "file_output_button", "value": "出力する"}, "");
         var input = getTag("input", {"type": "text", "id": "file_output_text"}, "");
         var it = getTag("div", {"class": "b4"}, button + input);
       
@@ -416,7 +416,7 @@ function getHTMLforFile(){
     }
 
     var gin = function(){
-        var button = getTag("input", {"type": "button", "value": "読み込む"}, "");
+        var button = getTag("input", {"type": "button", "id": "file_input_button", "value": "読み込む"}, "");
         var input = getTag("input", {"type": "text", "id": "file_input_text"}, "");
         var it = getTag("div", {"class": "b4"}, button + input);
       

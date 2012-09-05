@@ -1,3 +1,17 @@
+// 辞書のサイズを返す
+function getDictSize(dict){
+    var size = 0;
+    for(var i in dict){
+        size ++;
+    }
+    return size;
+}
+
+// ダブルクォートでくくって返す
+function dq(str){
+    return "\"" + str + "\"";
+}
+
 // サニタイズ
 function escape_html_tag(string) {
     return string.replace(/[&<>]/g, function(match) {
