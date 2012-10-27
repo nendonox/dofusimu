@@ -108,11 +108,12 @@ function getHTMLforBuilder(){
 
     var gabst = function(){
         var abst = function(){
+            var wikia_button = getTag("input", {"type": "button", "value": "wikia", "id": "builder_wikia"}, "");
             var base = getTag("span", {"id": "builder_summary_base"}, "***********");
             var cate = getTag("span", {"id": "builder_summary_type", "key": "default"}, "********");
             var level = getTag("span", {"id": "builder_summary_level"}, "***");
 
-            return getTag("div", {"class": "b4"}, "ベース名 " + base)
+            return getTag("div", {"class": "b4"}, "ベース名 " + base + wikia_button)
                 + getTag("div", {"class": "b4"},  "カテゴリー " + cate + " / レベル " + level);
         }
 

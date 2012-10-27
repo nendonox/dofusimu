@@ -3,6 +3,15 @@ function builderEvent(){
     builderNameChangeEvent();
     builderForgeEvent();
     builderCreateEvent();
+    builderWikiaEvent();
+}
+
+function builderWikiaEvent(){
+    $("#builder_wikia").click(function(){
+        var name = $("#builder_summary_base").html();
+        var url = "http://dofuswiki.wikia.com/wiki/" + name.replace(/ /g, "_");
+        window.open(url);
+    });
 }
 
 function getConditionDiv(){
